@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión TI - Herramienta Didáctica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero-header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .main-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .themes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .theme-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .theme-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .theme-card.tema1::before {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+
+        .theme-card.tema2::before {
+            background: linear-gradient(90deg, #ff6b35, #f7931e);
+        }
+
+        .theme-card.tema3::before {
+            background: linear-gradient(90deg, #00b894, #00cec9);
+        }
+
+        .theme-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+
+        .theme-card:hover::before {
+            height: 8px;
+        }
+
+        .theme-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .theme-card.tema1 .theme-icon {
+            color: #667eea;
+        }
+
+        .theme-card.tema2 .theme-icon {
+            color: #ff6b35;
+        }
+
+        .theme-card.tema3 .theme-icon {
+            color: #00b894;
+        }
+
+        .theme-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .theme-subtitle {
+            color: #666;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .theme-description {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .theme-features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .theme-features li {
+            padding: 0.3rem 0;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .theme-features li::before {
+            content: '✓';
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .btn-explore {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border: none;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-explore:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            color: white;
+            text-decoration: none;
+        }
+
+        .status-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .status-complete {
+            background: #28a745;
+            color: white;
+        }
+
+        .status-pending {
+            background: #ffc107;
+            color: #333;
+        }
+
+        .footer {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .keyboard-shortcuts {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            color: white;
+        }
+
+        .shortcut-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .shortcut-item:last-child {
+            border-bottom: none;
+        }
+
+        .shortcut-key {
+            background: rgba(255,255,255,0.2);
+            padding: 0.3rem 0.6rem;
+            border-radius: 5px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2rem;
+            }
+            
+            .themes-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .theme-card {
+                padding: 1.5rem;
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="container">
+            <h1 class="main-title">
+                <i class="fas fa-graduation-cap me-3"></i>
+                Gestión TI
+            </h1>
+            <p class="subtitle">Herramienta Didáctica Interactiva</p>
+            <p class="mb-0">Navega por los temas del curso y explora el contenido de forma dinámica</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="themes-grid">
+            <!-- Tema 1: Auditoría Informática -->
+            <div class="theme-card tema1 fade-in" onclick="navigateToTheme('Tema1')">
+                <span class="status-badge status-complete">Completo</span>
+                <i class="fas fa-search theme-icon"></i>
+                <h3 class="theme-title">Tema 1: Auditoría Informática</h3>
+                <p class="theme-subtitle">Fundamentos y Prácticas de Auditoría</p>
+                <p class="theme-description">
+                    Explora los conceptos fundamentales de la auditoría informática, 
+                    el rol del auditor, funciones principales y habilidades requeridas 
+                    en el campo de la auditoría de sistemas.
+                </p>
+                <ul class="theme-features">
+                    <li>Introducción y Objetivos</li>
+                    <li>El Rol de la Auditoría Informática</li>
+                    <li>Definición y Características</li>
+                    <li>Funciones y Objetivos</li>
+                    <li>Habilidades del Auditor Informático</li>
+                </ul>
+                <a href="Tema1/index.html" class="btn-explore">
+                    <i class="fas fa-arrow-right me-2"></i>Explorar Tema
+                </a>
+            </div>
+
+            <!-- Tema 2: Gestión de Riesgos TI -->
+            <div class="theme-card tema2 fade-in" onclick="navigateToTheme('Tema2')">
+                <span class="status-badge status-complete">Completo</span>
+                <i class="fas fa-shield-alt theme-icon"></i>
+                <h3 class="theme-title">Tema 2: Gestión de Riesgos TI</h3>
+                <p class="theme-subtitle">Identificación, Análisis y Control</p>
+                <p class="theme-description">
+                    Aprende sobre la gestión integral de riesgos en tecnologías de información, 
+                    incluyendo identificación, análisis, evaluación y estrategias de mitigación 
+                    de riesgos tecnológicos.
+                </p>
+                <ul class="theme-features">
+                    <li>Introducción a Riesgos TI</li>
+                    <li>Identificación de Riesgos</li>
+                    <li>Análisis de Riesgos</li>
+                    <li>Evaluación de Riesgos</li>
+                    <li>Control y Mitigación</li>
+                </ul>
+                <a href="Tema2/index.html" class="btn-explore">
+                    <i class="fas fa-arrow-right me-2"></i>Explorar Tema
+                </a>
+            </div>
+
+            <!-- Tema 3: Continuidad del Negocio -->
+            <div class="theme-card tema3 fade-in" onclick="navigateToTheme('Tema3')">
+                <span class="status-badge status-complete">Completo</span>
+                <i class="fas fa-sync-alt theme-icon"></i>
+                <h3 class="theme-title">Tema 3: Continuidad del Negocio</h3>
+                <p class="theme-subtitle">Planificación y Recuperación</p>
+                <p class="theme-description">
+                    Descubre las estrategias de continuidad del negocio, planificación 
+                    ante desastres, recuperación de sistemas y mantenimiento de planes 
+                    de contingencia empresarial.
+                </p>
+                <ul class="theme-features">
+                    <li>Introducción a BCM</li>
+                    <li>Planificación BCM</li>
+                    <li>Recuperación de Desastres</li>
+                    <li>Pruebas y Validación</li>
+                    <li>Mantenimiento y Mejora</li>
+                </ul>
+                <a href="Tema3/index.html" class="btn-explore">
+                    <i class="fas fa-arrow-right me-2"></i>Explorar Tema
+                </a>
+            </div>
+
+            <!-- Temas Futuros -->
+            <div class="theme-card fade-in" style="opacity: 0.7;">
+                <span class="status-badge status-pending">Próximamente</span>
+                <i class="fas fa-clock theme-icon" style="color: #6c757d;"></i>
+                <h3 class="theme-title">Temas 4-9</h3>
+                <p class="theme-subtitle">Contenido en Desarrollo</p>
+                <p class="theme-description">
+                    Los siguientes temas del curso están en proceso de desarrollo 
+                    y serán implementados próximamente con la misma calidad 
+                    y funcionalidad interactiva.
+                </p>
+                <ul class="theme-features">
+                    <li>Gobernanza TI</li>
+                    <li>Seguridad de la Información</li>
+                    <li>Gestión de Proyectos TI</li>
+                    <li>Calidad de Software</li>
+                    <li>Y más...</li>
+                </ul>
+                <button class="btn-explore" disabled style="opacity: 0.5;">
+                    <i class="fas fa-clock me-2"></i>En Desarrollo
+                </button>
+            </div>
+        </div>
+
+        <!-- Atajos de Teclado -->
+        <div class="keyboard-shortcuts">
+            <h4 class="mb-3">
+                <i class="fas fa-keyboard me-2"></i>
+                Atajos de Teclado
+            </h4>
+            <div class="shortcut-item">
+                <span>Navegar a Tema 1</span>
+                <span class="shortcut-key">Ctrl + 1</span>
+            </div>
+            <div class="shortcut-item">
+                <span>Navegar a Tema 2</span>
+                <span class="shortcut-key">Ctrl + 2</span>
+            </div>
+            <div class="shortcut-item">
+                <span>Navegar a Tema 3</span>
+                <span class="shortcut-key">Ctrl + 3</span>
+            </div>
+            <div class="shortcut-item">
+                <span>Volver a la página principal</span>
+                <span class="shortcut-key">Ctrl + 0</span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-2">
+                <i class="fas fa-code me-2"></i>
+                Herramienta Didáctica para Gestión TI
+            </p>
+            <p class="mb-0">
+                <i class="fas fa-graduation-cap me-2"></i>
+                Proyecto de Aula - Interfaz Interactiva
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Función para navegar a los temas
+        function navigateToTheme(themeName) {
+            const themePath = `${themeName}/index.html`;
+            window.open(themePath, '_blank');
+        }
+
+        // Configuración de atajos de teclado
+        document.addEventListener('keydown', function(event) {
+            // Ctrl + número para navegar a temas
+            if (event.ctrlKey) {
+                switch(event.key) {
+                    case '1':
+                        event.preventDefault();
+                        navigateToTheme('Tema1');
+                        break;
+                    case '2':
+                        event.preventDefault();
+                        navigateToTheme('Tema2');
+                        break;
+                    case '3':
+                        event.preventDefault();
+                        navigateToTheme('Tema3');
+                        break;
+                    case '0':
+                        event.preventDefault();
+                        window.location.reload();
+                        break;
+                }
+            }
+        });
+
+        // Efectos de animación al cargar
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.theme-card');
+            
+            // Animación de entrada escalonada
+            cards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.2}s`;
+            });
+
+            // Efectos hover mejorados
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px) scale(1.02)';
+                });
+
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+        });
+
+        // Función para mostrar información adicional
+        function showThemeInfo(themeName) {
+            const info = {
+                'Tema1': {
+                    title: 'Auditoría Informática',
+                    description: 'Fundamentos y prácticas de auditoría en sistemas de información.',
+                    color: '#667eea'
+                },
+                'Tema2': {
+                    title: 'Gestión de Riesgos TI',
+                    description: 'Identificación, análisis y control de riesgos tecnológicos.',
+                    color: '#ff6b35'
+                },
+                'Tema3': {
+                    title: 'Continuidad del Negocio',
+                    description: 'Planificación y recuperación ante desastres.',
+                    color: '#00b894'
+                }
+            };
+
+            const themeInfo = info[themeName];
+            if (themeInfo) {
+                // Aquí podrías mostrar un modal o tooltip con información adicional
+                console.log(`${themeInfo.title}: ${themeInfo.description}`);
+            }
+        }
+    </script>
+</body>
+</html>

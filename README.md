@@ -1,23 +1,25 @@
-# Auditoría Informática - Herramienta Didáctica
+# Gestión TI - Herramienta Didáctica Interactiva
 
 ## 📚 Descripción
 
-Herramienta didáctica interactiva para impartir clases sobre Auditoría Informática. Esta aplicación presenta un diseño moderno de tres columnas con los conceptos clave del Tema 1, permitiendo una experiencia de aprendizaje estructurada y visualmente atractiva.
+Herramienta didáctica interactiva para impartir clases sobre Gestión de Tecnologías de Información. Esta aplicación presenta un diseño moderno con múltiples temas del curso, permitiendo una experiencia de aprendizaje estructurada y visualmente atractiva. Incluye una página principal de navegación desde donde se puede acceder a todos los temas disponibles.
 
 ## 🎯 Objetivo
 
-Facilitar la enseñanza de conceptos de Auditoría Informática a través de una interfaz interactiva que permite:
+Facilitar la enseñanza de conceptos de Gestión de Tecnologías de Información a través de una interfaz interactiva que permite:
+- Navegar fácilmente entre diferentes temas del curso
 - Visualizar conceptos y sus relaciones
 - Explorar contenido detallado de cada concepto
-- Navegar de forma intuitiva entre temas
+- Navegar de forma intuitiva entre secciones
 - Seguir el progreso de aprendizaje
 - Mantener el interés durante la clase
 
 ## 🚀 Características
 
 ### ✨ Funcionalidades Principales
-- **Diseño de Tres Columnas**: Estructura organizada y fácil de seguir
-- **Navegación por Secciones**: Botones para diferentes temas de auditoría
+- **Página Principal de Navegación**: Interfaz central para acceder a todos los temas
+- **Múltiples Temas del Curso**: Estructura modular para diferentes temas
+- **Navegación por Secciones**: Botones para diferentes temas de cada módulo
 - **Contenido Estructurado**: Información organizada en tarjetas y secciones
 - **Diseño Responsive**: Adaptable a diferentes dispositivos
 - **Efectos Visuales**: Animaciones y transiciones suaves
@@ -25,40 +27,40 @@ Facilitar la enseñanza de conceptos de Auditoría Informática a través de una
 
 ### 🎨 Diseño
 - **Interfaz Moderna**: Diseño limpio y profesional
-- **Paleta de Colores**: Azules y morados para auditoría
+- **Paletas de Colores Únicas**: Cada tema tiene su propia identidad visual
 - **Tarjetas Elegantes**: Bordes redondeados y sombras sutiles
 - **Iconografía**: Iconos descriptivos para cada sección
-- **Timeline Visual**: Línea de tiempo para evolución histórica
+- **Navegación Intuitiva**: Fácil acceso a todos los temas desde la página principal
 
-## 📋 Agenda de la Clase - Tema 1
+## 📋 Temas Disponibles
 
-### 1. **Agenda Completa** (Vista General)
-- Resumen de los 5 componentes principales
-- Navegación interactiva a cada sección
-- Estructura completa del tema
+### 🏠 **Página Principal** (`index.html`)
+- Navegación central a todos los temas
+- Vista previa de contenido de cada tema
+- Atajos de teclado para navegación rápida
+- Diseño responsive y moderno
 
-### 2. **INTRODUCCIÓN Y OBJETIVOS**
-- Fundamentos básicos de la auditoría informática
-- Propósitos principales
-- Alcance del tema
+### 📊 **Tema 1: Auditoría Informática** (`Tema1/index.html`)
+- **Agenda Completa**: Vista general de los 5 componentes principales
+- **Introducción y Objetivos**: Fundamentos básicos de la auditoría informática
+- **El Rol de la Auditoría**: Funciones en la organización
+- **Definición y Características**: Concepto formal y elementos clave
+- **Funciones y Objetivos**: Evaluación, análisis y verificación
+- **Habilidades del Auditor**: Técnicas y profesionales requeridas
 
-### 3. **EL ROL DE LA AUDITORÍA INFORMÁTICA**
-- Funciones en la organización
-- Posición organizacional
-- Responsabilidades principales
+### 🛡️ **Tema 2: Gestión de Riesgos TI** (`Tema2/index.html`)
+- **Introducción a Riesgos TI**: Conceptos fundamentales
+- **Identificación de Riesgos**: Métodos y técnicas
+- **Análisis de Riesgos**: Evaluación y clasificación
+- **Evaluación de Riesgos**: Matrices y criterios
+- **Control y Mitigación**: Estrategias de gestión
 
-### 4. **DEFINICIÓN Y CARACTERÍSTICAS DE LA AUDITORÍA INFORMÁTICA**
-- **Definición**: Concepto formal y elementos clave
-- **Características**: Sistemática, Objetiva, Independiente, Profesional
-
-### 5. **FUNCIONES Y OBJETIVOS DE LA AUDITORÍA INFORMÁTICA**
-- **Funciones**: Evaluación de Controles, Análisis de Riesgos, Verificación de Cumplimiento
-- **Objetivos**: Seguridad, Eficiencia, Cumplimiento, Mejora Continua
-
-### 6. **HABILIDADES DEL AUDITOR INFORMÁTICO**
-- Habilidades técnicas
-- Habilidades profesionales
-- Certificaciones requeridas
+### 🔄 **Tema 3: Continuidad del Negocio** (`Tema3/index.html`)
+- **Introducción a BCM**: Conceptos de continuidad
+- **Planificación BCM**: Desarrollo de planes
+- **Recuperación de Desastres**: Estrategias de recuperación
+- **Pruebas y Validación**: Verificación de planes
+- **Mantenimiento y Mejora**: Actualización continua
 
 
 ## 🖥️ Instalación y Uso
@@ -69,18 +71,21 @@ Facilitar la enseñanza de conceptos de Auditoría Informática a través de una
 
 ### Instalación
 1. Descargar todos los archivos del proyecto
-2. Navegar a la carpeta del tema deseado (ej: `Tema1-AuditoriaInformatica/`)
-3. Abrir el archivo `index.html` de esa carpeta en el navegador
+2. Abrir el archivo `index.html` principal en el navegador
+3. Navegar a cualquier tema desde la página principal
 4. ¡Listo para usar!
 
-### Ejecución por Tema
-- **Tema 1**: Abrir `Tema1-AuditoriaInformatica/index.html`
-- **Tema 2**: Abrir `Tema2-[NombreTema]/index.html` (cuando esté disponible)
+### Ejecución
+- **Página Principal**: Abrir `index.html` - Navegación a todos los temas
+- **Tema 1**: Abrir `Tema1/index.html` - Auditoría Informática
+- **Tema 2**: Abrir `Tema2/index.html` - Gestión de Riesgos TI
+- **Tema 3**: Abrir `Tema3/index.html` - Continuidad del Negocio
 - **Temas futuros**: Seguir el mismo patrón de carpetas
 
 ### Controles
-- **Botones de navegación**: Cambiar entre secciones
-- **Teclas de acceso rápido**: Ctrl/Cmd + 1-6 para navegar
+- **Página Principal**: Navegación central con tarjetas de temas
+- **Botones de navegación**: Cambiar entre secciones dentro de cada tema
+- **Teclas de acceso rápido**: Ctrl/Cmd + 1-3 para navegar a temas, Ctrl/Cmd + 0 para volver
 - **Hover**: Efectos visuales en tarjetas y elementos
 - **Responsive**: Adaptación automática a dispositivos móviles
 
@@ -95,26 +100,38 @@ Facilitar la enseñanza de conceptos de Auditoría Informática a través de una
 ## 📁 Estructura del Proyecto
 
 ```
-GestionTI/
+gestion-ti/
+├── index.html                   # Página principal de navegación
 ├── README.md                    # Documentación principal del proyecto
-├── Tema1-AuditoriaInformatica/  # Carpeta del Tema 1
-│   ├── index.html              # Archivo principal del tema
-│   ├── styles.css              # Estilos específicos del tema
+├── Tema1/                       # Tema 1: Auditoría Informática
+│   ├── index.html              # Interfaz principal del tema
+│   ├── styles.css              # Estilos específicos (paleta azul/morada)
 │   └── script.js               # Lógica JavaScript del tema
-├── Tema2-[NombreTema]/          # Carpeta del Tema 2 (futuro)
-│   ├── index.html              # Archivo principal del tema
-│   ├── styles.css              # Estilos específicos del tema
-│   └── script.js               # Lógica JavaScript del tema
-└── [Temas adicionales...]       # Carpetas para temas futuros
+├── Tema2/                       # Tema 2: Gestión de Riesgos TI
+│   ├── index.html              # Interfaz principal del tema
+│   ├── styles.css              # Estilos específicos (paleta naranja/roja)
+│   ├── script.js               # Lógica JavaScript del tema
+│   └── README.md               # Documentación específica del tema
+├── Tema3/                       # Tema 3: Continuidad del Negocio
+│   ├── index.html              # Interfaz principal del tema
+│   ├── styles.css              # Estilos específicos (paleta verde)
+│   ├── script.js               # Lógica JavaScript del tema
+│   └── README.md               # Documentación específica del tema
+└── [Tema4-Tema9]/              # Carpetas para temas futuros
 ```
 
 ### 📂 Organización por Temas
 
 Cada tema del curso tiene su propia carpeta independiente que contiene:
 - **index.html**: Archivo principal que debe ejecutarse para ver el contenido
-- **styles.css**: Estilos específicos del tema
+- **styles.css**: Estilos específicos del tema con paleta de colores única
 - **script.js**: Lógica y funcionalidades del tema
-- **README.md**: Documentación específica del tema (opcional)
+- **README.md**: Documentación específica del tema
+
+### 🎨 Paletas de Colores por Tema
+- **Tema 1**: Azules y morados (Auditoría Informática)
+- **Tema 2**: Naranjas y rojos (Gestión de Riesgos TI)
+- **Tema 3**: Verdes (Continuidad del Negocio)
 
 ### 🚀 Cómo Ejecutar un Tema
 
@@ -122,7 +139,9 @@ Para visualizar el contenido de cualquier tema:
 
 1. **Navegar a la carpeta del tema deseado**
    ```bash
-   cd Tema1-AuditoriaInformatica
+   cd Tema1    # Para Auditoría Informática
+   cd Tema2    # Para Gestión de Riesgos TI
+   cd Tema3    # Para Continuidad del Negocio
    ```
 
 2. **Abrir el archivo index.html**
@@ -139,11 +158,11 @@ Para visualizar el contenido de cualquier tema:
 Para crear un nuevo tema, seguir esta estructura:
 
 ```
-TemaX-[NombreTema]/
+TemaX/
 ├── index.html          # Archivo principal del tema
-├── styles.css          # Estilos específicos
+├── styles.css          # Estilos específicos con paleta única
 ├── script.js           # Lógica del tema
-└── README.md           # Documentación del tema (opcional)
+└── README.md           # Documentación específica del tema
 ```
 
 ### Modificar Conceptos
@@ -224,6 +243,6 @@ Para dudas o problemas:
 
 ---
 
-**Desarrollado para facilitar la enseñanza de Auditoría Informática con un diseño moderno y estructurado**
+**Desarrollado para el curso de Gestion de TI**
 # gestion-ti
 # gestion-ti
