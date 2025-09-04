@@ -62,6 +62,14 @@ Facilitar la enseñanza de conceptos de Gestión de Tecnologías de Información
 - **Pruebas y Validación**: Verificación de planes
 - **Mantenimiento y Mejora**: Actualización continua
 
+### 👑 **Tema 4: Gobierno TI - Framework COBIT** (`Tema4/index.html`)
+- **Introducción y Objetivos**: Fundamentos del gobierno TI
+- **ISO 38500**: 6 principios fundamentales
+- **Continuidad de Negocio**: Planes BCP y DRP
+- **Framework COBIT**: Marco de gobierno y gestión
+- **Principios COBIT**: Los 5 principios básicos
+- **Modelo de Capacidad**: 6 niveles de evaluación
+
 
 ## 🖥️ Instalación y Uso
 
@@ -80,12 +88,13 @@ Facilitar la enseñanza de conceptos de Gestión de Tecnologías de Información
 - **Tema 1**: Abrir `Tema1/index.html` - Auditoría Informática
 - **Tema 2**: Abrir `Tema2/index.html` - Gestión de Riesgos TI
 - **Tema 3**: Abrir `Tema3/index.html` - Continuidad del Negocio
+- **Tema 4**: Abrir `Tema4/index.html` - Gobierno TI - Framework COBIT
 - **Temas futuros**: Seguir el mismo patrón de carpetas
 
 ### Controles
 - **Página Principal**: Navegación central con tarjetas de temas
 - **Botones de navegación**: Cambiar entre secciones dentro de cada tema
-- **Teclas de acceso rápido**: Ctrl/Cmd + 1-3 para navegar a temas, Ctrl/Cmd + 0 para volver
+- **Teclas de acceso rápido**: Ctrl/Cmd + 1-4 para navegar a temas, Ctrl/Cmd + 0 para volver
 - **Hover**: Efectos visuales en tarjetas y elementos
 - **Responsive**: Adaptación automática a dispositivos móviles
 
@@ -117,7 +126,12 @@ gestion-ti/
 │   ├── styles.css              # Estilos específicos (paleta verde)
 │   ├── script.js               # Lógica JavaScript del tema
 │   └── README.md               # Documentación específica del tema
-└── [Tema4-Tema9]/              # Carpetas para temas futuros
+├── Tema4/                       # Tema 4: Gobierno TI - Framework COBIT
+│   ├── index.html              # Interfaz principal del tema
+│   ├── styles.css              # Estilos específicos (paleta púrpura/índigo)
+│   ├── script.js               # Lógica JavaScript del tema
+│   └── README.md               # Documentación específica del tema
+└── [Tema5-Tema9]/              # Carpetas para temas futuros
 ```
 
 ### 📂 Organización por Temas
@@ -132,6 +146,7 @@ Cada tema del curso tiene su propia carpeta independiente que contiene:
 - **Tema 1**: Azules y morados (Auditoría Informática)
 - **Tema 2**: Naranjas y rojos (Gestión de Riesgos TI)
 - **Tema 3**: Verdes (Continuidad del Negocio)
+- **Tema 4**: Púrpuras e índigos (Gobierno TI - Framework COBIT)
 
 ### 🚀 Cómo Ejecutar un Tema
 

@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #2c3e50, #1a2533); /* Nuevo fondo oscuro */
             min-height: 100vh;
             margin: 0;
             padding: 0;
@@ -82,6 +82,14 @@
             background: linear-gradient(90deg, #00b894, #00cec9);
         }
 
+        .theme-card.tema4::before {
+            background: linear-gradient(90deg, #6c5ce7, #a29bfe);
+        }
+
+        .theme-card.tema5::before {
+            background: linear-gradient(90deg, #00A79D, #007991);
+        }
+
         .theme-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 35px rgba(0,0,0,0.15);
@@ -107,6 +115,127 @@
 
         .theme-card.tema3 .theme-icon {
             color: #00b894;
+        }
+
+        .theme-card.tema4 .theme-icon {
+            color: #6c5ce7;
+        }
+
+        .theme-card.tema5 .theme-icon {
+            color: #00A79D;
+        }
+
+        .magerit-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2.5rem;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            border-top: 5px solid #007bff;
+        }
+
+        .magerit-card .magerit-title {
+            color: #1e3c72;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+        }
+        
+        .magerit-card .magerit-subtitle {
+            margin-bottom: 2rem;
+            color: #555;
+        }
+
+        .accordion-item {
+            border-radius: 10px !important;
+            margin-bottom: 1rem;
+            border: 1px solid #dee2e6;
+        }
+        
+        .accordion-button {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #343a40;
+            background: #f8f9fa;
+        }
+        
+        .accordion-button:not(.collapsed) {
+            color: white;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+        }
+
+        .accordion-button:focus {
+            box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+        }
+        
+        .accordion-body h5 {
+            color: #0056b3;
+            font-weight: 600;
+            margin-top: 1rem;
+            border-left: 3px solid #007bff;
+            padding-left: 10px;
+        }
+
+        .accordion-body ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .accordion-body li {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .accordion-body li i {
+            color: #007bff;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+
+        .use-case-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            margin-top: 3rem;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            border-top: 5px solid #28a745;
+        }
+        
+        .use-case-header {
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .use-case-header h2 {
+            color: #1e3c72;
+            font-weight: 700;
+            margin-bottom: 0;
+            font-size: 1.8rem;
+        }
+
+        .use-case-body {
+            padding: 0 2rem 2rem 2rem;
+            display: none; /* Oculto por defecto */
+            border-top: 1px solid #dee2e6;
+        }
+        
+        .use-case-body h4 {
+            color: #0056b3;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .use-case-body ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        #toggle-case-study {
+            font-weight: 600;
         }
 
         .theme-title {
@@ -336,11 +465,55 @@
                 </a>
             </div>
 
+            <!-- Tema 4: Gobierno TI - Framework COBIT -->
+            <div class="theme-card tema4 fade-in" onclick="navigateToTheme('Tema4')">
+                <span class="status-badge status-complete">Completo</span>
+                <i class="fas fa-crown theme-icon"></i>
+                <h3 class="theme-title">Tema 4: Gobierno TI</h3>
+                <p class="theme-subtitle">Framework COBIT</p>
+                <p class="theme-description">
+                    Explora los fundamentos del gobierno corporativo de TI, la norma 
+                    ISO 38500, los 5 principios de COBIT 5 y el modelo de capacidad 
+                    para evaluación de procesos tecnológicos.
+                </p>
+                <ul class="theme-features">
+                    <li>ISO 38500 y 6 Principios</li>
+                    <li>Continuidad de Negocio</li>
+                    <li>Framework COBIT</li>
+                    <li>5 Principios COBIT</li>
+                    <li>Modelo de Capacidad</li>
+                </ul>
+                <a href="Tema4/index.html" class="btn-explore">
+                    <i class="fas fa-arrow-right me-2"></i>Explorar Tema
+                </a>
+            </div>
+
+            <!-- Tema 5: Certificación CISA -->
+            <div class="theme-card tema5 fade-in" onclick="navigateToTheme('Tema5')">
+                <span class="status-badge status-complete">Nuevo</span>
+                <i class="fas fa-award theme-icon"></i>
+                <h3 class="theme-title">Tema 5: Certificación CISA</h3>
+                <p class="theme-subtitle">Gobierno y Auditoría de SI</p>
+                <p class="theme-description">
+                    Domina los 5 dominios de la certificación CISA, el estándar global para profesionales de la auditoría y seguridad de sistemas de información.
+                </p>
+                <ul class="theme-features">
+                    <li>Proceso de Auditoría de SI</li>
+                    <li>Gobierno y Gestión de TI</li>
+                    <li>Adquisición y Desarrollo</li>
+                    <li>Operaciones y Mantenimiento</li>
+                    <li>Protección de Activos</li>
+                </ul>
+                <a href="Tema5/index.html" class="btn-explore">
+                    <i class="fas fa-arrow-right me-2"></i>Explorar Tema
+                </a>
+            </div>
+
             <!-- Temas Futuros -->
             <div class="theme-card fade-in" style="opacity: 0.7;">
                 <span class="status-badge status-pending">Próximamente</span>
                 <i class="fas fa-clock theme-icon" style="color: #6c757d;"></i>
-                <h3 class="theme-title">Temas 4-9</h3>
+                <h3 class="theme-title">Temas 6-9</h3>
                 <p class="theme-subtitle">Contenido en Desarrollo</p>
                 <p class="theme-description">
                     Los siguientes temas del curso están en proceso de desarrollo 
@@ -348,15 +521,197 @@
                     y funcionalidad interactiva.
                 </p>
                 <ul class="theme-features">
-                    <li>Gobernanza TI</li>
-                    <li>Seguridad de la Información</li>
                     <li>Gestión de Proyectos TI</li>
                     <li>Calidad de Software</li>
+                    <li>Arquitectura Empresarial</li>
                     <li>Y más...</li>
                 </ul>
                 <button class="btn-explore" disabled style="opacity: 0.5;">
                     <i class="fas fa-clock me-2"></i>En Desarrollo
                 </button>
+            </div>
+        </div>
+
+        <!-- Magerit Detailed Card -->
+        <div class="magerit-card fade-in">
+            <h2 class="magerit-title"><i class="fas fa-shield-alt me-3"></i>Metodología MAGERIT v3</h2>
+            <p class="magerit-subtitle">Una introducción completa al Análisis y Gestión de Riesgos de los Sistemas de Información, fundamental en el Gobierno TI.</p>
+
+            <div class="accordion" id="mageritAccordion">
+                <!-- Libro I: Método -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Libro I: El Método</strong> &nbsp;- El Proceso de Gestión de Riesgos
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#mageritAccordion">
+                        <div class="accordion-body">
+                            <p>Este libro describe el <strong>qué</strong> y el <strong>porqué</strong> de la gestión de riesgos. Es un método formal y sistemático alineado con estándares internacionales como ISO 27001 y 31000.</p>
+                            
+                            <h5><i class="fas fa-cogs me-2"></i>Proceso Central</h5>
+                            <p>Se basa en el ciclo de mejora continua <strong>PDCA (Planificar, Hacer, Verificar, Actuar)</strong> y se divide en dos grandes fases:</p>
+                            <ul>
+                                <li><i class="fas fa-search"></i><div><strong>1. Análisis de Riesgos:</strong> Un proceso para identificar y valorar los componentes clave del sistema y entender las amenazas a las que se enfrentan.</div></li>
+                                <li><i class="fas fa-tasks"></i><div><strong>2. Tratamiento de Riesgos:</strong> Un proceso para decidir y aplicar las medidas de seguridad adecuadas para controlar dichos riesgos.</div></li>
+                            </ul>
+
+                            <h5><i class="fas fa-cubes me-2"></i>Elementos Clave del Análisis</h5>
+                            <ul>
+                                <li><i class="fas fa-database"></i><div><strong>Activos:</strong> Cualquier componente con valor para la organización (datos, servicios, equipos, personal). Son el objeto a proteger.</div></li>
+                                <li><i class="fas fa-exclamation-triangle"></i><div><strong>Amenazas:</strong> Cualquier evento que pueda dañar un activo (ej. un ciberataque, un incendio, un error humano).</div></li>
+                                <li><i class="fas fa-shield-alt"></i><div><strong>Salvaguardas:</strong> Las medidas o controles que se implementan para proteger los activos (ej. un firewall, una política de contraseñas, copias de seguridad).</div></li>
+                            </ul>
+
+                            <h5><i class="fas fa-bullseye me-2"></i>Objetivo Final</h5>
+                            <p>El objetivo no es eliminar el riesgo por completo (lo cual es imposible), sino reducirlo a un nivel aceptable para la dirección, conocido como <strong>Riesgo Residual</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libro II: Catálogo de Elementos -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>Libro II: Catálogo de Elementos</strong> &nbsp;- El Inventario para el Análisis
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#mageritAccordion">
+                        <div class="accordion-body">
+                            <p>Este libro actúa como un "diccionario" o un inventario estandarizado que proporciona listas de elementos comunes para facilitar y homogeneizar el análisis. Es el <strong>con qué</strong> se realiza el análisis.</p>
+
+                            <h5><i class="fas fa-list-ul me-2"></i>Dimensiones Clave de la Seguridad</h5>
+                            <p>Define los 5 pilares de la seguridad que se deben proteger para cada activo:</p>
+                            <ul>
+                                <li><i class="fas fa-lock"></i><div><strong>Confidencialidad:</strong> La información solo es accesible por personal autorizado.</div></li>
+                                <li><i class="fas fa-check-circle"></i><div><strong>Integridad:</strong> La información es correcta, completa y no ha sido manipulada.</div></li>
+                                <li><i class="fas fa-power-off"></i><div><strong>Disponibilidad:</strong> La información y los servicios están accesibles cuando se necesitan.</div></li>
+                                <li><i class="fas fa-fingerprint"></i><div><strong>Autenticidad:</strong> Se garantiza la identidad de un usuario o el origen de los datos.</div></li>
+                                <li><i class="fas fa-history"></i><div><strong>Trazabilidad:</strong> Se puede saber quién hizo qué y cuándo sobre la información.</div></li>
+                            </ul>
+
+                            <h5><i class="fas fa-book me-2"></i>Catálogos Principales</h5>
+                            <ul>
+                                <li><i class="fas fa-box"></i><div><strong>Tipos de Activos:</strong> Ofrece una clasificación detallada de activos como Servicios, Datos, Software, Hardware, Redes, Instalaciones y Personal.</div></li>
+                                <li><i class="fas fa-fire"></i><div><strong>Amenazas:</strong> Proporciona un extenso listado de amenazas clasificadas por su origen: Desastres Naturales, Origen Industrial, Errores no intencionados y Ataques Intencionados.</div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libro III: Guía de Técnicas -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           <strong>Libro III: Guía de Técnicas</strong> &nbsp;- Las Herramientas Prácticas
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#mageritAccordion">
+                        <div class="accordion-body">
+                            <p>Es la "caja de herramientas" de Magerit, describiendo técnicas prácticas para ejecutar el análisis. Es el <strong>cómo</strong> se lleva a cabo el proceso.</p>
+
+                            <h5><i class="fas fa-tools me-2"></i>Técnicas de Análisis Destacadas</h5>
+                             <ul>
+                                <li><i class="fas fa-table"></i><div><strong>Análisis mediante Tablas:</strong> Un método cualitativo y visual que usa matrices para cruzar el valor de los activos, el impacto y la probabilidad, permitiendo una priorización rápida de los riesgos.</div></li>
+                                <li><i class="fas fa-calculator"></i><div><strong>Análisis Algorítmico:</strong> Un enfoque cuantitativo que utiliza fórmulas para calcular el riesgo en términos numéricos, pudiendo llegar a estimar la "pérdida anual esperada" en términos monetarios.</div></li>
+                                <li><i class="fas fa-sitemap"></i><div><strong>Árboles de Ataque:</strong> Una técnica gráfica para descomponer y visualizar los pasos que un atacante podría seguir para materializar una amenaza.</div></li>
+                            </ul>
+
+                            <h5><i class="fas fa-users me-2"></i>Técnicas de Apoyo</h5>
+                            <p>Incluye métodos para la recolección de información (entrevistas, reuniones) y para la toma de decisiones en grupo (método Delphi).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Herramientas de Soporte: MARISMA -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                           <strong>Herramientas de Soporte</strong> &nbsp;- El Software para la Gestión de Riesgos
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#mageritAccordion">
+                        <div class="accordion-body">
+                            <p>Aunque Magerit es una metodología que puede aplicarse manualmente, en la práctica, su implementación se facilita enormemente con herramientas de software especializadas. Estas plataformas automatizan el proceso y lo convierten en un sistema de gestión continuo.</p>
+
+                            <h5><i class="fas fa-rocket me-2"></i>Ejemplo: Plataforma MARISMA</h5>
+                            <p><strong>MARISMA</strong> es un claro ejemplo de una herramienta SaaS (Software as a Service) diseñada para implementar metodologías como Magerit de forma eficiente. En lugar de gestionar el análisis con documentos y hojas de cálculo, una herramienta como esta permite:</p>
+                             <ul>
+                                <li><i class="fas fa-magic"></i><div><strong>Automatizar el Proceso:</strong> Guía al usuario a través de los pasos de la metodología, desde la identificación de activos hasta la generación de informes.</div></li>
+                                <li><i class="fas fa-sync-alt"></i><div><strong>Gestión Dinámica del Riesgo:</strong> Permite que el análisis sea un proceso "vivo". Si las condiciones cambian, el sistema recalcula el estado de riesgo, manteniendo la evaluación siempre actualizada.</div></li>
+                                <li><i class="fas fa-copy"></i><div><strong>Uso de Patrones Reutilizables:</strong> Facilita la creación de plantillas para sistemas comunes, agilizando futuros análisis y garantizando la consistencia.</div></li>
+                                <li><i class="fas fa-users-cog"></i><div><strong>Entorno Colaborativo:</strong> Centraliza la información y permite que diferentes responsables (gerentes, técnicos, auditores) trabajen sobre la misma plataforma.</div></li>
+                                <li><i class="fas fa-chart-bar"></i><div><strong>Generación Automática de Informes:</strong> Crea automáticamente la documentación clave, como los mapas de riesgos y los planes de tratamiento.</div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Caso de Uso Práctico -->
+        <div class="use-case-card fade-in">
+            <div class="use-case-header" id="toggle-case-study-header">
+                <h2><i class="fas fa-file-alt me-3 text-success"></i>Caso Práctico: Aplicando Magerit</h2>
+                <button id="toggle-case-study" class="btn btn-outline-success">
+                    <i class="fas fa-plus me-2"></i>Mostrar Caso
+                </button>
+            </div>
+            <div class="use-case-body" id="case-study-content">
+                <p class="mt-3">Este caso práctico te guiará paso a paso sobre cómo una empresa tecnológica ficticia, "TechSolutions Inc.", utiliza la metodología <strong>Magerit</strong> y una herramienta como <strong>MARISMA</strong> para gestionar sus riesgos de seguridad.</p>
+
+                <h4>Contexto de la Empresa</h4>
+                <p><strong>TechSolutions Inc.</strong> ofrece una plataforma SaaS llamada "DevFlow" para la gestión de proyectos de software. Su desafío es proteger la plataforma, cumplir con normativas y aumentar la confianza de sus clientes.</p>
+
+                <hr>
+
+                <h4>Fase I: Análisis de Riesgos (El Método Magerit en Acción)</h4>
+                
+                <h5>Paso 1: Identificación y Valoración de Activos</h5>
+                <p>El equipo de seguridad identifica y valora los activos más importantes para el negocio:</p>
+                <ul>
+                    <li><strong>Activos Esenciales:</strong> El servicio online "DevFlow" y los "Datos de Clientes".</li>
+                    <li><strong>Activos de Soporte:</strong> Servidores (software y hardware), redes, centro de datos y personal clave.</li>
+                    <li><strong>Valoración:</strong> Se le asigna un valor a cada activo en las 5 dimensiones de la seguridad (Confidencialidad, Integridad, Disponibilidad, Autenticidad, Trazabilidad). Por ejemplo, los "Datos de Clientes" tienen una valoración "Muy Alta" en Confidencialidad e Integridad.</li>
+                </ul>
+
+                <h5>Paso 2: Identificación de Amenazas</h5>
+                <p>Utilizando el catálogo de Magerit, identifican amenazas probables:</p>
+                <ul>
+                    <li>Para los "Datos de Clientes": <strong>Acceso no autorizado</strong> por un hacker o un ataque de <strong>Ransomware</strong>.</li>
+                    <li>Para los "Servidores Físicos": Un <strong>incendio</strong> en el centro de datos o un <strong>corte eléctrico prolongado</strong>.</li>
+                </ul>
+
+                <h5>Paso 3: Evaluación de Salvaguardas Existentes</h5>
+                <p>Documentan los controles que ya tienen:</p>
+                <ul>
+                    <li>Frente a accesos no autorizados: Disponen de un <strong>Firewall</strong> y una <strong>política de contraseñas</strong>.</li>
+                    <li>Frente a cortes eléctricos: Cuentan con un <strong>SAI</strong> que ofrece 15 minutos de autonomía, pero <strong>no tienen un generador</strong> de respaldo.</li>
+                </ul>
+
+                <h5>Paso 4: Cálculo del Riesgo (Automatizado por la Herramienta)</h5>
+                <p>Una herramienta como MARISMA calcula el Riesgo Residual combinando el valor de los activos, la probabilidad de las amenazas y la eficacia de las salvaguardas. Se identifican dos riesgos inaceptables:</p>
+                <ul>
+                    <li><strong>Riesgo ALTO:</strong> Infección por Ransomware.</li>
+                    <li><strong>Riesgo CRÍTICO:</strong> Caída del servicio por un corte eléctrico superior a 15 minutos.</li>
+                </ul>
+                <hr>
+
+                <h4>Fase II: Gestión de Riesgos (Usando una Herramienta como MARISMA)</h4>
+
+                <h5>Paso 5: Generación del Mapa de Riesgos</h5>
+                <p>La herramienta genera un <strong>mapa de riesgos</strong>, un gráfico visual que muestra claramente cuáles son los riesgos más peligrosos (los que están en la zona roja de la matriz Probabilidad vs. Impacto), permitiendo a la dirección priorizar de forma inmediata.</p>
+
+                <h5>Paso 6: Creación del Plan de Tratamiento</h5>
+                <p>Para los riesgos inaceptables, el equipo define acciones concretas en la plataforma:</p>
+                <ul>
+                    <li>Para el riesgo de Ransomware, se decide <strong>mitigar</strong> el riesgo contratando un <strong>servicio EDR (Endpoint Detection and Response)</strong>.</li>
+                    <li>Para el riesgo de corte eléctrico, se decide <strong>mitigar</strong> el riesgo con la <strong>instalación de un generador diésel</strong>.</li>
+                </ul>
+                <p>En la herramienta se asignan responsables, plazos y presupuestos para cada acción.</p>
+
+                <h5>Paso 7: Gestión Dinámica y Colaboración</h5>
+                <p>Cuando el equipo de TI implementa el EDR, lo marcan como "completado" en la plataforma. La herramienta <strong>recalcula automáticamente el riesgo</strong>, que ahora pasa de "Alto" a "Bajo". El mapa de riesgos se actualiza en tiempo real, demostrando que la gestión de riesgos es un proceso continuo y no un informe estático.</p>
             </div>
         </div>
 
@@ -377,6 +732,14 @@
             <div class="shortcut-item">
                 <span>Navegar a Tema 3</span>
                 <span class="shortcut-key">Ctrl + 3</span>
+            </div>
+            <div class="shortcut-item">
+                <span>Navegar a Tema 4</span>
+                <span class="shortcut-key">Ctrl + 4</span>
+            </div>
+            <div class="shortcut-item">
+                <span>Navegar a Tema 5</span>
+                <span class="shortcut-key">Ctrl + 5</span>
             </div>
             <div class="shortcut-item">
                 <span>Volver a la página principal</span>
@@ -422,6 +785,14 @@
                     case '3':
                         event.preventDefault();
                         navigateToTheme('Tema3');
+                        break;
+                    case '4':
+                        event.preventDefault();
+                        navigateToTheme('Tema4');
+                        break;
+                    case '5':
+                        event.preventDefault();
+                        navigateToTheme('Tema5');
                         break;
                     case '0':
                         event.preventDefault();
@@ -469,6 +840,16 @@
                     title: 'Continuidad del Negocio',
                     description: 'Planificación y recuperación ante desastres.',
                     color: '#00b894'
+                },
+                'Tema4': {
+                    title: 'Gobierno TI - Framework COBIT',
+                    description: 'Marco de gobierno y gestión de tecnologías de información.',
+                    color: '#6c5ce7'
+                },
+                'Tema5': {
+                    title: 'Certificación CISA',
+                    description: 'Dominios y conocimientos clave para la auditoría de sistemas.',
+                    color: '#00A79D'
                 }
             };
 
@@ -478,6 +859,35 @@
                 console.log(`${themeInfo.title}: ${themeInfo.description}`);
             }
         }
+
+        // Script para el Caso de Uso Práctico
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButton = document.getElementById('toggle-case-study');
+            const toggleHeader = document.getElementById('toggle-case-study-header');
+            const content = document.getElementById('case-study-content');
+
+            const toggleContent = function() {
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                    toggleButton.innerHTML = '<i class="fas fa-plus me-2"></i>Mostrar Caso';
+                    toggleButton.classList.remove('btn-danger');
+                    toggleButton.classList.add('btn-outline-success');
+                } else {
+                    content.style.display = 'block';
+                    toggleButton.innerHTML = '<i class="fas fa-minus me-2"></i>Ocultar Caso';
+                    toggleButton.classList.remove('btn-outline-success');
+                    toggleButton.classList.add('btn-danger');
+                }
+            };
+
+            if(toggleButton && content && toggleHeader) {
+                toggleButton.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    toggleContent();
+                });
+                toggleHeader.addEventListener('click', toggleContent);
+            }
+        });
     </script>
 </body>
 </html>

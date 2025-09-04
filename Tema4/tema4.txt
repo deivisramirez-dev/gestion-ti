@@ -1,0 +1,595 @@
+
+Tema 4
+
+
+
+
+
+
+Gestión TI
+
+Gobierno TI: Framework
+COBIT
+ 
+
+
+
+
+
+
+
+
+
+Índice
+Esquema	3
+Ideas clave	4
+4.1.	Introducción y objetivos	4
+4.2.	Gobierno TI: ISO 38500	5
+4.3.	Continuidad de negocio y recuperación de Desastres	8
+4.4.	Framework COBIT	11
+4.5.	Principios COBIT	13
+4	6. Modelo de capacidad de los procesos de COBIT 5
+20
+4.7. Referencias bibliográficas	22
+A fondo	23
+Test	26
+ 
+© Universidad Internacional de La Rioja (UNIR)
+
+
+
+
+
+
+
+
+
+ 
+
+
+Ideas clave
+
+4.1.	Introducción y objetivos
+
+Una de las principales preocupaciones de los cuadros directivos de una empresa viene dada por la necesidad de tomar decisiones estratégicas en el ámbito de las tecnologías de la información. El gobierno Ti se ha implantado en los más altos estamentos empresariales y debe abordarse al mismo nivel que las decisiones financieras para la competitividad y supervivencia de la organización.
+
+La dirección reclama al sector tecnológico un modelo de gobierno que les permita basar sus decisiones en procesos testados y que les permita orientar su estrategia empresarial considerando su entramado TI. El framework o entorno de trabajo COBIT, como modelo de gobierno TI más utilizado, o la norma ISO 38500 les dan una serie de orientaciones prácticas que son de gran ayuda en su desempeño directivo.
+
+El capítulo comienza con una descripción de la norma ISO 38500 creada para el gobierno TI, junto con la necesidad de implantar un plan para la continuidad del negocio y otro para la recuperación de desastres. Una vez vistos estos aspectos básicos de gobierno Ti, se adentra en la descripción del framework COBIT, así como sus principios y modelo de capacidad de procesos.
+
+Los objetivos que se pretenden alcanzar son:
+
+
+ Conocer las mejores prácticas para el gobierno de tecnologías de la información.
+ Describir el framework COBIT y sus cinco principios básicos.
+ Reflexionar sobre el modelo de funcionamiento del framework COBIT.
+
+
+
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+4.2.	Gobierno TI: ISO 38500
+
+El Information Technology Governance Institute (ITIG) define el gobierno TI como una parte plenamente incorporada en el gobierno de una corporación, donde los directivos deben definir y organizar estructuras y procesos que garanticen que el entorno TI este desempeñando sus tareas conforme a lo esperado y perfectamente alineado con la estrategia empresarial.
+
+Este alineamiento queda plasmado en un plan director, elaborado conjuntamente por la alta dirección y el departamento TI, a uno o dos años donde se reflejen los planes de mantenimiento, innovación y mejora continua que la dirección tiene previsto establecer para mantener toda la infraestructura TI a la altura del mercado y evitar su obsolescencia.
+
+La International Standard Organization (ISO) ha desarrollado la norma ISO/IEC 38500 que contiene una serie de principios para mejorar la eficacia y eficiencia de las empresas y que puede ser empleada por cualquier organización para que la dirección controle sus sistemas TI y así garantizar la confidencialidad, integridad y disponibilidad de su información.
+
+De acuerdo con ITGI (2009) la ISO/IEC 38500 proporciona, entre otros, los siguientes beneficios:
+
+ Destaca la importancia del gobierno de TI debido a los riesgos involucrados y a las significativas inversiones requeridas.
+ Anima a las empresas a utilizar estándares apropiados para su gobierno TI.
+ Facilita un marco de 6 principios básicos para que la dirección los emplee a la hora de evaluar, dirigir y supervisar el uso de las TI en sus empresas.
+ Incide en que un buen gobierno corporativo de TI ayuda a la dirección a asegurar la conformidad con las obligaciones (regulatorias, legales, contractuales y de derecho común) sobre el uso aceptable de TI.
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+La norma se basa en seis principios fundamentales cuyas implicaciones prácticas quedan expuestas a continuación (ITGI, 2009):
+
+ Responsabilidad: se debe establecer estructuras de organización de gobierno, así como asignar funciones y responsabilidades que permitan conocer el autor y la rendición de cuentas en las tareas importantes, incluyendo a proveedores críticos de servicios TI.
+ Estrategia: la planificación estratégica de TI deberá incluir la evaluación de la capacidad actual de la infraestructura TI y de los recursos humanos ante futuras necesidades de la empresa, al igual que planificar nuevos avances tecnológicos que otorguen mayor competitividad o ahorro de costes.
+ Adquisición: en las adquisiciones de recursos de TI hay que analizar su integración con el resto de infraestructura TI ya presente. Toda adquisición se ve como un cambio organizacional orientado a trabajar con los procesos de negocio ya existentes para un mayor beneficio empresarial.
+ Desempeño: hay que incorporar procesos de medición del desempeño para asegurar que existe una supervisión de los procesos transparente y fiable. Esta transparencia se alcanza expresando los objetivos, indicadores e informes de rendimiento en un lenguaje asequible para tomar las medidas apropiadas.
+ Conformidad: en el mercado actual, las organizaciones precisan cumplir, cada vez más, con los requisitos legales o regulatorios sin que afecten al desempeño de su organización. Este equilibrio entre conformidad y desempeño debe plasmarse en políticas y procedimientos internos que garanticen la privacidad, confidencialidad, propiedad intelectual y seguridad.
+ El comportamiento humano: la implementación de Ti lleva aparejados cambios culturales en las personas y clientes que trabajan con la organización. Para que sean vistos positivamente los directores comunicarán claramente los objetivos de los cambios para que todo el mundo afectado los comprenda y no se vea perjudicado.
+
+
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+ 
+
+Figura 1. Principios ISO 38500.
+
+
+Junto con estos 6 principios existe un modelo que describe la estructura organizativa del Gobierno Ti y que refleja las presiones, necesidades, fuentes de información, problemas o propuestas a las que se ven sometidos los directivos TI a la hora de tomar sus decisiones. El modelo puede verse en la Figura 2 que proporciona la propia ISO 38500:
+
+
+Figura 2. Estructura Gobierno TI. Fuente: ISO 38500.
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+Importante es también, para un gobierno TI, el rol que juega la auditoría a la hora de evaluar mediante controles el desempeño y la conformidad de la empresa con respecto a su proceso TI. A través de la auditoria, la organización recibe recomendaciones prácticas para mejorar sus procesos y así obtener una mayor eficiencia de su sistema TI.
+
+Junto con esta norma, las organizaciones disponen del COBIT (Control Objectives for Information and related Technology) como modelo de gobernanza TI, que será expuesto en sucesivos apartados de este tema.
+
+
+Vídeo. Gobierno TI.
+
+Accede al vídeo a través del aula virtual
+
+
+4.3.	Continuidad de negocio y recuperación de Desastres
+Una de las tareas indispensables en una organización TI es la necesidad de disponer de planes de continuidad de negocio que permitan a una empresa enfrentarse a las posibles eventualidades que puedan surgir. La disposición de este tipo de plan
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+concede a la empresa una reputación empresarial que otorga confianza a sus clientes y proveedores.
+
+La existencia del plan de continuidad del negocio es una de las cuestiones que observan los auditores de cara a conocer la estabilidad empresarial y para analizar las acciones previstas en caso de siniestro. El auditor, por tanto, confirmará que la organización posee este BCP (Businesss Continuity Plan) y además, un DRP (Disaster Recovery Plan) para aseverar que la organización está preparada ante cualquier eventualidad.
+
+La importancia de estos planes BCP y DRP, queda refrendada por el dato de que cerca del 60% de las organizaciones que sufren un problema inesperado y carecen y de un BCP o un DRP, no continúan su actividad en menos de 3 años. Este porcentaje refleja que, a pesar de establecer medidas de protección siempre existe un margen para lo imponderable.
+
+A la hora de establecer este BCP, se dispone de la ISO 22301 que nos guía en cuanto a los pasos a realizar. Esta ISO 22301 indica cuales son las bases de un sistema de gestión de continuidad de negocio, mostrando el proceso a seguir para el desarrollo e implementación de un BCP, junto a los principios y términos más empleados.
+
+Esta norma puede aplicarse en cualquier organización, independientemente de su tamaño o área de aplicación, de cara a garantizar que la empresa está preparada para continuar trabajando ante situaciones inesperadas y protegiendo la actividad profesional de todos sus empleados.
+
+A la hora de desarrollar un BCP, la especificación NIST propone cuatro etapas de desarrollo (Swanson et al., 2010):
+
+ Inicialización: Elabora una relación de las principales operaciones y servicios de suministro, estableciendo un plan de asignación de responsabilidades sobre estos servicios críticos.
+
+Gestión TI Tema 4. Ideas clave
+ 
+ Definición del BIA (Business Impact Analysis): Su objetivo es conocer el impacto que una eventualidad inesperada provoca en la organización, por lo que se debe realizar una evaluación profunda de procesos de la organización, con especial énfasis en los flujos de información.
+ Desarrollo del BCP: Se redacta el BCP con referencias al software, hardware, instalaciones, personal, suministros… tanto a largo, como a corto plazo, describiendo los recursos a emplear en el BCP.
+ Aprobación e implementación del BCP: Su aprobación la realiza la dirección de la organización, quienes deben contribuir a divulgar entre sus empleados la existencia del plan para saber cómo proceder ante una eventualidad.
+
+Figura 3. Etapas desarrollo BCP.
+
+
+Junto con el BCP, es preciso que la organización disponga de un DRP para poder recuperar sus sistemas en caso de desastre en el menor tiempo posible y que su capacidad de producir no disminuya, entendiendo por desastre la ocurrencia de una eventualidad inesperada e imposible de detener.
+
+El Instituto Nacional de Ciberseguridad INCIBE (2019) nos facilita como proceder para elaborar un DRP en 7 fases:
+
+ Alinear el DRP con el BCP: Focalizando ambos esfuerzos en aplicaciones o sistemas indispensables para la empresa.
+
+Gestión TI Tema 4. Ideas clave
+ 
+ Efectuar evaluación de riesgos: Para conocer las amenazas posibles a las que se enfrenta la organización y puedan afectar a la continuidad del negocio.
+ Realizar un BIA: Identifica las necesidades de la organización en términos de recuperación, para los servicios críticos que afecten al funcionamiento de la organización.
+ Implementar acciones para recuperar servicios y aplicaciones prioritarias: Se trata de implementar actividades que permitan volver a operar normalmente en el menor tiempo posible.
+ Ejecutar pruebas: El DRP debe ser probado con periodicidad y comprobar que las acciones estimadas de recuperación son las correctas.
+ Mejora continua del DRP: La información proveniente de las pruebas ejecutadas facilita la toma de decisiones de cara a la actualización y mejora del plan establecido.
+ Capacitación responsables del DRP y difusión del plan: Es preciso que todas las personas afectadas por el plan conozcan su contenido y sus responsabilidades en caso de su aplicación.
+
+
+
+4.4.	Framework COBIT
+
+La importancia adquirida hoy en día por la información dentro de las empresas, hace que el papel que desempeña la tecnología dentro de ellas sea de suma importancia. La inversión que realizan en innovación tecnológica busca obtener un resultado económico positivo que permita alcanzar sus objetivos de forma eficiente.
+
+Los directivos, a través del gobierno TI, buscan mantener una información de alta calidad que les pueda ayudar en su siempre difícil toma de decisiones, mantener los riesgos TI en un nivel aceptable u mejorar los actuales costes de los servicios tecnológicos.
+
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+Esta importancia alcanzada por la tecnología dentro de la organización empresarial ha conducido a reconocer el gobierno de TI como algo primordial para sus negocios y la necesidad de incorporar a las tecnologías de la información en su estrategia empresarial al más alto nivel.
+
+COBIT es un marco de negocio para el gobierno y la gestión de las TI de la empresa que las ayuda a lograr sus objetivos de gobierno y a efectuar una correcta gestión tecnológica, manteniendo un equilibrio entre el tratamiento del riesgo, la utilización de recursos y la obtención de beneficios empresariales.
+
+COBIT 5 está conformado por cinco principios básicos que facilitan el gobierno y la gestión TI y que serán vistos con mayor profundidad en la siguiente sección:
+
+ Satisfacer las necesidades de las partes interesadas.
+ Cubrir la empresa extremo a extremo.
+ Aplicar un marco de referencia único integrado.
+ Hacer posible un enfoque holístico.
+ Separar el gobierno de la gestión.
+
+
+Vídeo. Framework COBIT.
+
+Accede al vídeo a través del aula virtual
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+4.5.	Principios COBIT
+
+La Figura 4, abajo representada, recoge los principios básicos de COBIT que van a ser descritos brevemente a continuación. Una mayor profundización de ellos puede encontrarse en el documento bibliográfico COBIT 5. Un marco de negocio para el gobierno y la gestión de las TI de la empresa (ISACA, 2012) junto con la documentación contenida en el apartado de A fondo:
+
+Figura 4. Principios de COBIT 5. Fuente: (ISACA, 2012).
+
+
+Satisfacer las necesidades de las partes interesadas
+
+
+Uno de los principales objetivos empresariales es la creación de valor para sus accionistas, por lo que la generación de valor debe estar entre sus objetivos prioritarios. Esta generación de valor se consigue bajo dos formas, la optimización de riesgos y la optimización de recursos, en las cuales hay que contar con todas las partes interesadas, dada la diversidad empresarial existente (ISACA, 2012).
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+Esta diversidad hace que se requiera de un sistema de gobierno y gestión personalizado en cada empresa, donde se consideren tanto factores externos como factores internos. Para ayudarnos a confeccionar este sistema de gobierno TI COBIT 5 ofrece su cascada de metas, que traduce las necesidades de las partes interesadas en metas corporativas, metas relacionadas con las TI y metas catalizadoras a medida.
+
+Esta cascada de metas se produce en cuatro pasos (ISACA, 2012):
+
+
+ Paso 1: Los motivos de las partes interesadas influyen en las necesidades de las partes interesadas: Las necesidades de las partes interesadas pueden verse modificadas por cambios de estrategia.
+ Paso 2: Las necesidades de las partes interesadas desencadenan metas empresariales: Estas necesidades pueden relacionarse con un conjunto de metas empresariales genéricas. COBIT 5 facilita 17 objetivos genéricos a los que poder asociarse.
+ Paso 3: Cascada de metas de empresa a metas relacionadas con las TI: Para alcanzar las metas empresariales, es preciso en muchos casos, alcanzar una serie de metas relacionadas con la TI. COBIT define 17 metas relacionadas con la TI.
+ Paso 4: Cascada de metas relacionadas con las TI hacia metas catalizadoras: Para lograr las metas relacionadas con la TI se requiere de la aplicación de varios catalizadores que incluyen estructuras organizativas, procesos e información.
+
+La importancia de la cascada de metas radica en la posibilidad otorgada a las organizaciones para definir sus prioridades en cuanto a objetivos y metas relevantes y la posibilidad de contar con catalizadores para llegar a esas metas.
+
+Este proceso parte de la diversidad empresarial, por lo que no será único para todas las empresas, sino que cada una de ellas debe establecer sus objetivos prioritarios que pueden cambiar posteriormente en función de las necesidades de las partes interesadas.
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+Cubrir la empresa extremo a extremo
+
+En su aplicación, COBIT 5 contempla al gobierno de TI integrado plenamente en toda la estructura empresarial y que cubre la misma de extremo a extremo. Por ello, integra el gobierno TI dentro del gobierno corporativo y cubre todas las funciones y procesos necesarios para gobernar y gestionar la información corporativa allá donde sea necesaria. De esta forma engloba cualquier servicio o proceso TI tanto interno como externo.
+
+Esta integración se efectúa mediante catalizadores que permiten definir para cada procesamiento de información los requisitos necesarios y su propio ciclo de vida. Estos catalizadores de gobierno estarán conformados por marcos de referencia, estructuras, principios, procesos, buenas prácticas y recursos corporativos (personas, datos).
+
+El enfoque de gobierno queda reflejado en la Figura 5 (ISACA, 2012):
+
+
+
+Figura 5. Enfoque de Gobierno COBIT 5. Fuente: (ISACA, 2012).
+
+
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+En este principio es importante establecer quienes son las personas que están en las actividades de gobierno, su papel y la forma de interacción entre los diferentes roles con el objetivo de determinar responsabilidades en cada proceso.
+
+Aplicar un marco de referencia único integrado
+
+COBIT 5 se presenta como un marco de referencia único que integra los mejores marcos de ISACA y está alineado con otros estándares y marcos de referencia como ITIL (Information Technology Infrastructure Library), PMBOK (Project Management Body of Knowledge), PRINCE2 (PRojects IN Controlled Environments 2) o estándares ISO. (ESAN, 2016)
+
+Este marco integra el conocimiento disperso en los diferentes marcos de ISACA, (ValIT, Risk IT…), para ofrecer un marco que proporcione una cobertura completa a la empresa donde pueda integrar sus marcos, estándares, o prácticas empleadas. Una descripción de este marco de referencia única se expresa en la Figura 6:
+
+
+Figura 6. Marco de referencia único integrado. Fuente: (ISACA, 2012).
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+El marco, además de integrar otros marcos y estándares del mercado, define un grupo de catalizadores de gobierno y gestión que habilitan una estructura en la que las organizaciones puedan basarse para implantar buenas prácticas en su gobierno y gestión TI (ISACA, 2012).
+
+Hacer posible un enfoque holístico
+
+
+Los catalizadores son factores que influyen en el funcionamiento del gobierno y la gestión de una empresa TI. Sus ámbitos de acción están predeterminados por la cascada de metas de la organización que definen los objetivos que los catalizadores deben conseguir para el buen funcionamiento empresarial. Dentro de COBIT 5 existen 7 categorías de catalizadores que pueden verse en la figura 7 (ISACA, 2012).
+
+
+Figura 7. Categorías de catalizadores COBIT 5. Fuente: (ISACA, 2012).
+
+
+ Principios, políticas y marcos de referencia: son guías prácticas para gestionar la actividad diaria.
+ Procesos: conjunto de prácticas y actividades que permiten alcanzar las metas relacionadas con TI
+ Estructuras organizativas: entidades que toman las principales decisiones de la organización en tecnologías de la información.
+ Cultura, ética y comportamiento de individuos y empresa: es un factor importante para alcanzar los objetivos empresariales.
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+ Información: en términos de gobierno es el producto fundamental de la empresa e incluye todo tipo de información que sea utilizada.
+ Servicios, infraestructuras y aplicaciones: comprende cualquier infraestructura, servicio o aplicación que trabaje con la información de la empresa.
+ Personas, habilidades y competencias: hay que conocer las habilidades del personal para efectuar una buena toma de decisiones en temas de gobierno TI.
+
+La acción de estos catalizadores no es aislada, ya que precisan estar interconectados para cumplir con los fines de la organización, (por ejemplo, los procesos necesitan informaciones, para proveer resultados que activen otros procesos). La necesidad de obtener resultados positivos en su funcionamiento hace que la empresa evalué su rendimiento, basándose en estas cuatro preguntas:
+
+ ¿Se están considerando las necesidades de las partes necesitadas?
+ ¿Se alcanzan los objetivos de los catalizadores?
+ ¿Hay una gestión del ciclo de vida del catalizador?
+ ¿Se están aplicando buenas prácticas?
+
+
+Separar el gobierno de la gestión
+
+Dado que gobierno TI y gestión TI van a precisar de estructuras organizativas distintas, están compuestas por actividades diferentes y atienden a propósitos distintos, COBIT 5 realiza distingue ambas disciplinas.
+
+Así, considera que el gobierno es responsabilidad del consejo de administración y se dedica a evaluar las necesidades, condiciones y opciones de las partes interesadas para comprobar que se logran las metas corporativas, estableciendo una priorización y toma de decisiones en base al rendimiento de los procesos establecidos. (ISACA, 2012).
+
+
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+Por otro lado, la gestión es misión de la dirección ejecutiva que ejerce el CEO y consiste en planificar, construir, ejecutar y controlar las actividades establecidas por el gobierno para el correcto alineamiento y así alcanzar las metas corporativas.
+
+Si bien separa ambos conceptos, existen una serie de interacciones entre ellos para alcanzar la eficiencia del sistema:
+
+ A nivel de información es preciso que exista un intercambio de información entre los procesos de gobierno y gestión para evaluar y supervisar la infraestructura TI.
+ A nivel de estructuras organizativas, la estructura de gobierno toma decisiones estratégicas que afectan a las actividades a realizar en la estructura de gestión.
+ Las políticas, normas o principios que emanan del gobierno orientan la ejecución de decisiones de la gestión.
+ Si bien las personas que estén en el gobierno o en la gestión presentarán diferentes habilidades, debe existir una interacción entre ellas importante para el correcto desempeño de sus funciones.
+
+COBIT 5 incorpora también un modelo de referencia de procesos que define en detalle los procesos de gobierno y gestión que se encuentran con mayor frecuencia en organizaciones con actividades TI. De esta forma, las empresas disponen de una referencia para sus procesos, pero que deberá ser adaptada a las características particulares de cada empresa.
+
+Este modelo de referencia, que consta en la figura 8, se divide en dos dominios:
+
+ Gobierno: Comprende 5 procesos orientados a evaluar, orientar y supervisar.
+ Gestión: se subdivide en 4 subdominios que comprenden 32 procesos:
+•	Alinear, planificar y organizar: 13 procesos.
+•	Construir, adquirir e implementar: 10 procesos.
+•	Entregar, dar servicio y soporte: 6 procesos.
+•	Supervisar, evaluar y valorar: 3 procesos.
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+ 
+
+Figura 8. Modelo referencia procesos COBIT 5. Fuente: (ISACA, 2012).
+
+
+
+
+4.6.	Modelo de capacidad de los procesos de COBIT 5
+Para medir el estado actual en que se encuentran los procesos tecnológicos de una empresa y para conocer la mejor forma de avanzar hacia el siguiente nivel deseado, COBIT 5 facilita a las organizaciones un modelo de capacidad de los procesos basado en la norma ISO/IEC 15504 de evaluación de procesos en ingeniería del software.
+
+Este modelo de capacidad permitirá efectuar una evaluación de los procesos tecnológicos y, en función de los resultados o mediciones obtenidos, establecerá cuales son las áreas de mejora donde focalizar la acción.
+
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+Hay que considerar que los procesos son solo uno de los siete catalizadores de buen gobierno, por lo que su nivel de capacidad no es el del global de la empresa, al tener que considerar, igualmente, al resto de catalizadores. El enfoque de este modelo de capacidad de procesos se observa en la figura 9 (ISACA, 2012).
+
+Figura 8. Enfoque modelo capacidad de procesos COBIT 5. Fuente: (ISACA, 2012).
+
+
+El modelo ofrece 6 niveles de capacidad, donde cada nivel de capacidad solo puede alcanzarse si el nivel inferior se ha alcanzado completamente:
+
+ Proceso incompleto: el proceso no es sistemático y no alcanza su propósito.
+ Proceso ejecutado: el proceso alcanza su propósito.
+ Proceso gestionado: el proceso ejecutado se implementa de forma gestionada (planificación, supervisión y ajustes), bajo un control de los resultados.
+ Proceso establecido: el proceso gestionado se desarrolla bajo un proceso establecido y definido para lograr los resultados.
+ Proceso predecible: es un proceso establecido que se ejecuta en unos límites preestablecidos.
+ Proceso optimizado: existe una mejora continua del proceso predecible anterior para alcanzar las metas empresariales.
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+4.7.	Referencias bibliográficas
+
+ESAN. (1 de junio de 2016). Los 5 principios de COBIT 5. Conexión ESAN. https://www.esan.edu.pe/apuntes-empresariales/2016/06/los-cinco-principios-de- cobit-5/
+
+INCIBE. (2019). Plan de recuperación ante desastres. https://www.incibe.es/protege- tu-empresa/blog/tienes-tu-plan-recuperacion-desastres
+
+ITGI. (2009). ITGI facilita la adopción de ISO/IEC 38500:2008. COBIT. http://www.gti4u.es/curso/material/complementario/itgi_2009.pdf
+
+ISACA. (2012). COBIT 5: Un marco de negocio para el gobierno y la gestión de las TI de la empresa. ISACA. https://articulosit.files.wordpress.com/2013/07/cobit5- framework-spanish.pdf
+
+Swanson, M., Bowen, P., Wohl, A., Gallup, P. y Lynes, D. (2010) NIST 800-34, contingency planning guide for federal information systems. National Institute of standards and technology.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gestión TI Tema 4. Ideas clave
+ 
+
+
+A fondo
+
+
+COBIT 2019 Framework. Introduction and Methodology
+
+
+
+Isaca ha elaborado este documento para introducir a las personas interesadas en el nuevo framework COBIT 2019 como una actualización del COBIT 5. Aunque los principios básicos siguen permaneciendo, el documento muestra las innovaciones y la metodología de este framework.
+
+
+
+COBIT 2019 vs COBIT 5: What´s the difference?
+
+
+
+Blog publicado en The Business of IT Blog, donde se comentan, de forma breve, las principales diferencias entre el COBIT 5 y el COBIT 2019. Es una interesante entrada que permite a los estudiantes adentrase en los cambios producidos y profundizar con posterioridad en las diferencias
+
+
+
+
+Gestión TI Tema 4. A fondo
+ 
+What is IT governance? A formal way to align IT y business strategy
+
+
+
+En este artículo de la revista CIO se adentra en la gobernanza TI, y como desarrollar esta gobernanza para alcanzar el alineamiento de las estrategias empresariales con la organización de las tecnologías de la información.
+
+
+
+
+
+10 Common IT Management Issues Solved by COBIT
+
+
+
+
+
+Este video de la empresa ITpreneurs es una aplicación práctica del modelo COBIT al gobierno TI. En él se comentan algunos de los problemas más frecuentes a los que se enfrentan los directivos y como poder proceder para su resolución en el entorno corporativo.
+
+Gestión TI Tema 4. A fondo
+ 
+COBIT 5. The next evolution
+
+
+
+
+
+Global Knowledge, a través de Gary Hardy, muestra en este vídeo una explicación completa del modelo COBIT para su implantación en las organizaciones TI y como proceder a adaptar las tareas de gobierno TI al modelo COBIT.
+
+
+IT Governance
+
+
+
+Página web dedicada al gobierno de las organizaciones TI que proporciona orientaciones prácticas a las empresas para el Gobierno de tecnologías de la información y contiene artículos y comentarios interesantes sobre las normas de gobierno TI.
+
+
+
+Gestión TI Tema 4. A fondo
+ 
+
+
+Test
+
+1.	Dentro de la categoría de catalizadores, ¿cuál es el producto fundamental de la empresa en términos de gobierno?
+A.	Información.
+B.	Procesos.
+C.	Servicios, infraestructuras y aplicaciones.
+D.	Estructuras organizativas.
+
+2.	En el modelo de referencia de procesos de COBIT 5, el subdominio que controla el resto de subdominios de los procesos de gestión TI es:
+A.	Supervisar, evaluar y valorar.
+B.	Alinear, planificar y organizar.
+C.	Entregar, dar servicio y soporte.
+D.	Construir, adquirir e implementar.
+
+
+3.	¿En qué etapa del desarrollo de un BCP, de acuerdo con la especificación NIST se realiza la asignación de responsabilidades sobre los servicios críticos?
+A.	Inicialización.
+B.	Definición del BIA.
+C.	Desarrollo del BCP.
+D.	Aprobación e implementación del BCP.
+
+
+4.	¿Cuál de los principios fundamentales de la ISO 38500 se encarga de cumplir, con los requisitos legales?
+A.	Responsabilidad.
+B.	Conformidad.
+C.	Adquisición
+D.	Estrategia.
+
+
+
+
+
+Gestión TI Tema 4. Test
+ 
+5.	Indique la sentencia incorrecta:
+A.	El marco de referencia único e integrado está alineado con otros estándares y marcos de referencia.
+B.	El enfoque COBIT 5 solamente engloba los servicios o procesos TI que sean internos.
+C.	Los catalizadores de gobierno están conformados por marcos de referencia, estructuras, principios, procesos, buenas prácticas y recursos corporativos.
+D.	El marco de referencia de COBIT 5 proporciona una cobertura completa a la empresa para integrar sus marcos, estándares, o prácticas empleadas.
+
+6.	El plan director de tecnologías de la información de una empresa se programa a:
+A.	Menos de un año.
+B.	Más de tres años.
+C.	A un quinquenio.
+D.	Entre uno y dos años.
+
+
+7.	En un DRP, ¿cuál es la fase que Identifica las necesidades de la organización en términos de recuperación, para los servicios críticos?
+A.	Ejecutar pruebas.
+B.	Mejora continua del DRP.
+C.	Realizar un BIA.
+D.	Efectuar evaluación de riesgos.
+
+
+8.	Indique la sentencia correcta:
+A.	En COBIT 5, el gobierno es misión de la dirección ejecutiva que ejerce el CEO.
+B.	En COBIT 5, la cascada de metas de la organización están predeterminados por el ámbito de actuación de los catalizadores.
+C.	En COBIT 5, la gestión es responsabilidad del consejo de administración.
+D.	En COBIT 5, la optimización de riesgos y la optimización de recursos cuenta con todas las partes interesadas.
+
+
+
+
+Gestión TI Tema 4. Test
+ 
+9.	¿Cuál es el proceso del modelo de capacidad de COBIT 5 que se ejecuta en unos límites preestablecidos?
+A.	Proceso establecido.
+B.	Proceso predecible.
+C.	Proceso optimizado.
+D.	Proceso gestionado.
+
+
+10.	En el paso 4 del principio 2 de COBIT 5, la cascada de metas relacionadas con las TI hacia metas catalizadoras:
+A.	Las necesidades de las partes interesadas pueden verse modificadas por cambios de estrategia.
+B.	Para alcanzar las metas empresariales es preciso, alcanzar una serie de metas relacionadas con la TI.
+C.	Se relacionan las necesidades con un conjunto de metas empresariales genéricas.
+D.	Se requiere de la aplicación de varios catalizadores que incluyen estructuras organizativas, procesos e información.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gestión TI Tema 4. Test
