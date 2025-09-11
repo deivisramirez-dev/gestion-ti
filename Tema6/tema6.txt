@@ -1,0 +1,753 @@
+﻿
+Tema 6
+
+
+
+
+
+
+Gestión TI
+
+  Gestión del Riesgo en Sistemas de Información
+  
+
+
+
+
+
+
+
+
+
+
+Ideas clave
+
+6.1. Introducción y objetivos
+
+La gran importancia que los sistemas de información han alcanzado en el entramado empresarial hace que la gestión de riesgos aplicados a los sistemas de información o a las tecnologías de la información sea uno de los aspectos de mayor preocupación para los directivos TI.
+
+Esta preocupación empresarial hace que las organizaciones focalicen gran parte de sus recursos en mitigar los posibles riesgos, pero siempre teniendo presente que no va ser posible eliminar todos los riesgos de ciberseguridad inherentes, por lo que la organización deberá estar en un proceso de gestión y mejora continua para enfrentarse y reducir las vulnerabilidades presentes en el ámbito tecnológico y mantener los niveles de riesgo en un nivel aceptable.
+
+El contenido del tema presenta los principales fundamentos de la gestión del riesgo, para adentrarse posteriormente en las principales metodologías de análisis de riesgo que se aplican para evaluar las múltiples amenazas existentes. Además, el tema aborda las diferentes etapas del proceso de gestión del riesgo, focalizando una especial atención en el tratamiento del riesgo.
+
+Los principales objetivos a alcanzar en este tema son:
+
+
+ Exponer los fundamentos de la gestión de riesgos en una organización TI.
+ Aplicar las metodologías de análisis de riesgo adecuadas para enfrentarse a las posibles amenazas detectadas.
+ Comprender los pasos a aplicar en la gestión de riesgos en una empresa tecnológica.
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+6.2. Fundamentos de la gestión del riesgo
+
+La realidad de las organizaciones empresariales, y en especial las organizaciones TI, ofrece un mundo complejo de sistemas de información, donde los riesgos de seguridad y privacidad prevalecen en gran medida sobre el resto de riesgos empresariales.
+
+La confiabilidad, integridad y disponibilidad de la información empresarial puede verse comprometida por un software malicioso, por los ataques de delincuentes cibernéticos o por el empleo de otras técnicas que habiliten el acceso a los sistemas a personas no autorizadas.
+
+Por tanto, es preciso que las organizaciones focalicen parte de sus recursos en realizar una gestión efectiva del riesgo. Considerando al riesgo como:
+
+Un evento incierto, con posibilidades estimadas de ocurrir en un futuro, que puede retrasar el logro de los objetivos o metas de una organización.
+
+La gestión de riesgos puede definirse como:
+
+Un proceso que identifica todos los riesgos relevantes para una organización, los evalúa, asigna una prioridad para su tratamiento, los monitoriza e informa documentadamente de la gestión efectuada.
+
+Una gestión de riesgo que deberá ser eficiente y efectiva, involucrando a la dirección y al personal en todos sus niveles, proponiendo controles de verificación relevantes y focalizando su gestión preferentemente hacia la causa del riesgo (NIST, 2018)
+
+Esta gestión del riesgo debe realizarse de forma metódica, estructurada y, sobre todo, siguiendo un proceso de evaluación y mejora continua, ante el constante cambio al que se ven sometidas las organizaciones TI. La correcta gestión de las amenazas actuales no es garantía ante las posibles amenazas del futuro.
+
+        Gestión TI Tema 6. Ideas clave
+
+Principios de la gestión del riesgo
+
+Los principios para implementar en una organización de cualquier tipo un sistema de gestión de riesgos vienen dados por la norma ISO 31000. La norma tiene por objetivo gestionar, controlar y minimizar cualquier tipo de riesgo de forma continua y permanente. Los principales principios que deben cumplirse en la implantación de la gestión del riesgo son (ISOTools, S. f.):
+
+ La gestión del riesgo debe crear valor a la organización.
+ Tiene que estar presente en la toma de decisiones de la organización.
+ Debe estar integrada en todos los procesos operativos.
+ Será una gestión sistemática, estructurada y adecuada.
+ Dispondrá de la mejor información empresarial.
+ Se adaptará a la medida de cada caso e incluirá factores humanos y culturales.
+ La gestión será sensible al cambio e iterativa.
+ Facilitará en todo momento la mejora continua de la organización.
+
+
+La organización de este conjunto de principios formará el marco de trabajo de la gestión del riesgo. El Committee of Sponsoring Organizations of the Treadway Commission (COSO) en su documento del año 2017 Enterprise Risk Management. Integrating with Strategy and performance (COSO, 2017), propone la integración de la gestión de riesgos en la estrategia empresarial a través de cinco componentes interrelacionados:
+
+ Gobierno y cultura: la gobernanza marca el rol de la organización, reforzando la importancia de establecer responsabilidades de supervisión para la gestión de riesgos. La cultura implanta valores éticos, comportamientos deseados y la comprensión de la importancia del riesgo para la organización.
+ Estrategia y establecimiento de objetivos: la gestión de riesgos junto con la estrategia y la fijación de objetivos conforman el proceso de planificación estratégica, donde la tolerancia al riesgo se establece conforme con la estrategia
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+y los objetivos de negocio ponen en práctica la estrategia y sirven como base para identificar, evaluar y responder al riesgo.
+ Rendimiento: es preciso identificar, evaluar y priorizar los riesgos que pueden afectar a la estrategia y a los objetivos de negocio. Posteriormente, la organización selecciona las respuestas para cada riesgo siendo consciente de la cantidad de riesgo asumido, conforme a la tolerancia al riesgo. Estos resultados se transmiten a los principales stakeholders.
+ Revisión: Al revisar el rendimiento, una organización puede comprobar la efectividad de los componentes de gestión de riesgos y si precisa la revisión de algún proceso.
+ Información, comunicación e informes: la gestión de riesgos requiere un proceso continuo de compartición de información básica, que fluya por toda la organización.
+
+Categorías de riesgos
+
+
+Aunque existen una gran cantidad de formas para proceder a efectuar una clasificación de riesgos, a continuación, se facilita una de ellas atendiendo a la naturaleza del riesgo donde se clasifican los riesgos en siete categorías:
+
+ Riesgos sistemas TI: son aquellos que afectan a los sistemas de información y tecnologías presentes en la organización.
+• Amenazas electrónicas.
+• Fallos técnicos en la elaboración del software.
+• Fallos en las infraestructuras tecnológicas.
+• Errores humanos.
+
+
+ Riesgos financieros: son aquellos que afectan a las finanzas de la organización.
+• Reducción en los fondos empresariales.
+• Mala gestión del flujo de caja.
+• Fraudes o robos.
+• Presupuestos deficientes.
+
+        Gestión TI Tema 6. Ideas clave
+
+ Riesgos operacionales: son el resultado de políticas, procedimientos, sistemas o actividades erróneas.
+• Prestación de servicios de baja calidad.
+• Riesgos de salud y seguridad laboral.
+• Nivel de competencias del personal.
+
+ Riesgos reputacionales: son los riesgos debidos a las actividades que realiza la organización y que pueden amenazar su buena imagen.
+• Mediante asociación con organizaciones mal consideradas.
+• Falta de ética en el proceder del personal
+• Deficientes relaciones y comunicaciones con los stakeholders.
+
+ Riesgos gubernamentales: son los propios que afectan al gobierno de una organización
+• Ausencia de supervisión por parte de la alta dirección.
+• Indefinición en la segregación de funciones.
+• Incumplimiento en condiciones y términos de contratos.
+
+ Riesgos de cumplimiento: surgen ante el posible incumplimiento de la legislación vigente.
+• Protección de personas vulnerables.
+• Legislación relativa al pago de impuestos.
+• Reglamento de protección de datos.
+• Legislación de prevención de riesgos laborales.
+
+ Riesgos estratégicos: son los que se enfrentan con los objetivos estratégicos de la organización.
+• Participación en actividades no alineadas con la estrategia empresarial.
+• Nula involucración en actividades respaldadas por objetivos estratégicos.
+
+
+
+
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+
+
+Figura 1. Categorías de Riesgos.
+
+
+Seguridad y privacidad
+
+
+Cuando se habla de gestión de riesgos de seguridad de la información, el principal activo a proteger es la información de la organización, pero considerando, asimismo, la salvaguarda de todo el ciclo de vida de la información, la infraestructura disponible, las redes corporativas y las personas.
+
+Los programas de seguridad de la información se responsabilizan de la protección de la información y del acceso, uso, divulgación, interrupción, modificación o destrucción no autorizada de los sistemas de información para proporcionar confidencialidad, integridad y disponibilidad (NIST, 2018).
+
+Por su parte, los programas de privacidad se responsabilizan de garantizar el cumplimiento de los requisitos de privacidad aplicables y de gestionar los riesgos para las personas asociadas con la creación, recolección, uso, procesamiento, difusión,
+
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+almacenamiento, mantenimiento, divulgación o eliminación de información cumplan con todos los requisitos legales. (NIST, 2018).
+
+El objetivo de ambos programas es garantizar que los requisitos de seguridad y privacidad derivados de las leyes, directivas, regulaciones o políticas se cumplan adecuadamente, y que los controles apropiados sean seleccionados, implementados, evaluados y supervisados de forma continua. (NIST, 2018).
+
+Beneficios de la gestión del riesgo
+
+La aplicación regular de la evaluación y el análisis de riesgos ofrece una serie de beneficios importantes:
+
+ Comprender su perfil de riesgo: La identificación de las posibles amenazas y la clasificación de riesgos permite priorizar las tareas a realizar y asignar los recursos adecuadamente para atender en primer lugar los riesgos de alto impacto, y luego avanzar hacia las amenazas menos probables. Un perfil de riesgo describe los riesgos potenciales con las siguientes características:
+• La fuente de la amenaza.
+• La razón del riesgo.
+• La probabilidad de que la amenaza se materialice.
+• Análisis de impacto para cada amenaza.
+
+ Identificar y eliminar vulnerabilidades: El empleo de una buena metodología de evaluación de riesgos ayuda a identificar y eliminar las vulnerabilidades encontradas. Esta labor puede ser realizada por personal propio o por hackers éticos que probarán los controles existentes con exhaustividad.
+
+ Inventario de activos de TI y de datos: La existencia de un inventario completo y actualizado de la evaluación de riesgos TI, permite determinar cómo proteger los activos de tecnologías de la información y datos más críticos.
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+ Disminución de costes: La evaluación periódica de riesgos TI ayuda a la organización a eliminar gastos innecesarios en seguridad, al focalizar los recursos hacia los riesgos más importantes y evitar dispersarlos en riesgos con un menor potencial de daño.
+
+ Cumplir con los requisitos legales: La gestión de riesgos analiza los riesgos legales existentes y ayuda a las organizaciones a cumplir con los requisitos de privacidad y seguridad de datos presentes en la legislación nacional e internacional.
+
+
+
+6.3. Metodologías de análisis de riesgos
+
+La evaluación de riesgos TI es un proceso de análisis de posibles amenazas y vulnerabilidades en los sistemas de una organización TI para determinar el nivel del riesgo y su naturaleza. Esta información es el primer aporte para la toma de decisiones sobre si los riesgos deben tratarse o no y cuál es la metodología de tratamiento de riesgos más apropiada. (ENISA, S. f.) El objeto de este análisis de riesgos es alcanzar la mejor seguridad posible para enfrentarse a éstos riesgos a unos costes razonables.
+
+El Consejo Superior de Administración Electrónica Española ha elaborado la metodología MAGERIT (PAE, 2012), como una metodología de análisis y gestión de riesgos que permite evaluar los riesgos en un sistema de información y su entorno.
+
+MAGERIT realiza un análisis de los riesgos que implica evaluar el impacto que una amenaza de seguridad tiene en la organización TI. Además, señala los riesgos existentes, identifica posibles amenazas y determina la vulnerabilidad del sistema de prevención, obteniendo unos resultados que permiten recomendar las medidas apropiadas para reducir al mínimo las posibles pérdidas (PAE, 2012).
+
+
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+Si bien MAGERIT es una metodología empleada por la administración española, las metodologías de análisis de riesgos que más utilizadas son:
+
+ Metodologías cuantitativas.
+ Metodologías cualitativas.
+
+
+Figura 2. Metodologías de análisis de riesgos.
+
+
+Metodologías de análisis de riesgos cuantitativas
+
+La evaluación cuantitativa evalúa el riesgo empleando costes monetarios o valores referenciales. Emplea fórmulas matemáticas para valorar las pérdidas asociadas con un determinado riesgo. El cálculo de ese valor se basa en:
+
+ El valor del activo.
+ La frecuencia de ocurrencia de riesgo.
+ La probabilidad de pérdida asociada.
+
+Existe una matriz de riesgos que se aplica en este caso donde el riesgo viene dado por el resultado de la fórmula:
+
+𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅 =  𝑃𝑃𝑃𝑃𝑅𝑅𝑃𝑃𝑃𝑃𝑃𝑃𝑅𝑅𝑃𝑃𝑅𝑅𝑃𝑃𝑃𝑃𝑃𝑃 𝑥𝑥 𝐼𝐼𝐼𝐼𝐼𝐼𝑃𝑃𝐼𝐼𝐼𝐼𝑅𝑅
+
+
+Donde las variables probabilidad e impacto varían entre los valores 1 y 5 para expresar de menor a mayor su importancia.
+
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+Cuanto mayor es el valor mayor es el riesgo asociado. La Tabla 1 expresa esta matriz:
+
+
+Tabla 1. Matriz de riesgos cuantitativos.
+
+
+En esta matriz los resultados expresan el nivel de exposición al riesgo de la organización, siendo su interpretación de acuerdo a la Tabla 2:
+
+ACEPTACIÓN DE RIESGOSClasificación RiesgoRangoMuy bajoDe 1 a 5BajoDe 6 a 9MedioDe 10 a 15AltoDe 16 a 20Muy altoDe 21 a 25Tabla 2. Rango de aceptación del riesgo.
+
+
+Como principales métodos cuantitativos se tienen: (ISOTools, S. f.)
+
+ Análisis de probabilidad.
+ Análisis de consecuencias.
+ Simulación computacional.
+
+
+        Gestión TI Tema 6. Ideas clave
+
+ Método Montecarlo.
+ Método PERT.
+
+
+Metodologías de análisis de riesgos cualitativas
+
+La evaluación cualitativa está basada en la opinión, experiencia e intuición en la toma de decisiones. Se suele emplear con riesgos bajos o cuando no es posible aplicar los métodos cuantitativos.
+
+Se trata de un juicio personal o de la dirección que clasifica los riesgos en una escala de tres valores en función de la probabilidad de ocurrencia y del impacto que pueda provocar. La escala de tres valores posibles es:
+
+ Bajo: poca probabilidad de ocurrencia o que afecte al negocio.
+ Medio: existe la posibilidad de que ocurra e impacte en el negocio.
+ Alto: Hay gran probabilidad de ocurrencia y que afecte gravemente al negocio.
+
+
+Esta escala de valores permite obtener una matriz de ocurrencia impacto que permite establecer el riesgo al que se expone la organización, donde los resultados altos deben tratarse de forma priorizada y los valores medios o bajos son asumidos por la organización para un posterior tratamiento que mitigue el riesgo. La matriz de ocurrencia e impacto consta en la Tabla 3:
+
+Tabla 3. Matriz de riesgos cualitativos.
+
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+Como herramientas principales para el uso de métodos cualitativos destacan: (ISOTools, S. f.):
+
+ Brainstorming.
+ Cuestionario.
+ Entrevistas estructuradas.
+ Evaluación de grupos disciplinarios.
+ Juicio de expertos.
+6.4. El proceso de la gestión del riesgo
+
+A la hora de gestionar el riesgo, numerosos autores, como (Sotnikov, 2020) y otros que pueden verse en el apartado a fondo, proponen distintos procesos de gestión perfectamente válidos y con una serie de pasos muy definidos. Dado el carácter tecnológico de esta materia se muestra un proceso de la gestión del riesgo específico para organizaciones TI, basándose en el reciente documento publicado por la National Institute of Standards and Technology (NIST) en el año 2018 Risk
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+Management Framework for Information Systems and Organizations. A System Life Cycle Approach for Security and Privacy. (NIST, 2018), que consta de siete pasos.
+
+De estos siete pasos, el primero de ellos sirve de preparación para conseguir que las organizaciones estén listas para la ejecución del proceso y el resto de pasos componen el propio proceso en sí, ejecutándose de forma continua. Los siete pasos, y sus correspondientes interrelaciones, pueden verse en la Figura 3:
+
+Figura 3. Proceso de la gestión del riesgo en organizaciones TI.
+
+
+Preparación
+
+Realiza actividades esenciales en diferentes niveles de la organización, para ayudar a preparar a la organización a administrar sus riesgos de seguridad y privacidad utilizando el framework de gestión de riesgos. Se compone de 6 tareas:
+
+ Roles de gestión de riesgos: se identifican y asignan los individuos y los roles a desempeñar en la gestión de riesgos.
+ Estrategia de gestión de riesgos: se crea una estrategia de gestión de riesgo que incluya el nivel de tolerancia al riesgo establecido.
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+ Organización de gestión de riesgos: se completa una evaluación de riesgos de toda la organización o se actualiza una evaluación de riesgos existente.
+ Identificación de controles comunes: se identifican y publican los controles comunes disponibles para implantar en los sistemas organizacionales.
+ Priorización del nivel de impacto: se priorizan los sistemas organizacionales con el mismo nivel de impacto.
+ Organización de una estrategia de monitorización: se implementa una estrategia de monitorización para evaluar la efectividad de los controles.
+
+Clasificación
+
+Busca informar a los procesos y tareas involucradas en la gestión de riesgos de la organización del impacto que puede suponer la pérdida de confidencialidad, integridad y disponibilidad de los sistemas TI y de la información procesada por dichos sistemas. Las 3 tareas que componen este paso son:
+
+ Descripción del sistema: se describen y documentan las características del sistema.
+ Clasificación de seguridad: se establece una clasificación de seguridad conforme a los procesos organizacionales que englobe toda la información procesada por el sistema, incluyéndola en el plan de seguridad.
+ Revisión y aprobación de la clasificación de seguridad: la dirección revisa y aprueba los resultados de la clasificación de seguridad.
+
+Selección
+
+
+Selecciona, adapta y documenta los controles necesarios para proteger el sistema de información y la organización de manera proporcional al riesgo asociado con los activos y la operativa organizacional. Este paso consta de 6 tareas:
+
+ Selección de controles: se selecciona la configuración base de los controles necesaria para proteger el sistema proporcionalmente a los riesgos.
+
+        Gestión TI Tema 6. Ideas clave
+
+ Adaptación de controles: se adaptan los controles dando lugar a una adaptación, igualmente, de la configuración base de los controles.
+ Asignación de control: se designan los controles como específicos, híbridos o comunes y se asignan cada uno a elementos específicos de cada sistema.
+ Documentación de la implementación de los controles planificados: se debe documentar en los planes de seguridad y privacidad los controles y las adaptaciones realizadas.
+ Sistema de estrategia de monitorización: se desarrolla una estrategia de monitorización de los controles coherente con la estrategia de gestión de riesgos de la organización.
+ Revisión y aprobación del plan: el responsable revisa y aprueba los planes de seguridad y privacidad para comprobar que reflejan la selección de controles necesarios para proteger los activos y la operativa organizacional.
+
+Implementación
+
+
+Implementa los controles previstos en los planes de seguridad y privacidad de la organización y crea una configuración base, con los detalles específicos de la implementación de cada control.
+
+ Implementación de controles: se implantan mediante metodologías los controles previstos en los planes de seguridad y privacidad.
+ Actualización de la información de la implementación de controles: se documentan los cambios que hayan podido surgir respecto a la implantación prevista de controles y se actualizan ambos planes.
+
+Evaluación
+
+
+Observa si los controles seleccionados para la implementación se implementan correctamente, funcionan según lo previsto y producen el resultado esperado respecto al cumplimiento de los requisitos de seguridad y privacidad para el sistema y la organización.
+
+        Gestión TI Tema 6. Ideas clave
+
+Consta de 6 tareas:
+
+ Selección de evaluador: se selecciona un evaluador o un equipo de evaluadores independientes para realizar las evaluaciones de control.
+ Plan de evaluación: se proporciona al evaluador la documentación que necesite y se elaboran los planes de evaluación de la seguridad y de la privacidad que se revisan y aprueban para establecer las expectativas de las evaluaciones de control y el nivel de esfuerzo requerido.
+ Evaluaciones de control: se realizan las evaluaciones de control de acuerdo con los planes de seguridad y privacidad establecidos, procurando reutilizar anteriores evaluaciones que disminuyan los costes o emplear controles automáticos que mejoren la eficacia y efectividad de las evaluaciones.
+ Informes de evaluación: se redactan los informes de evaluación de la seguridad y privacidad que contienen evidencias y recomendaciones.
+ Acciones de reparación: se implementan las acciones de reparación necesarias para paliar las deficiencias encontradas y se actualizan los planes de seguridad y privacidad para reflejar los cambios fruto de las evaluaciones y las acciones de reparación realizadas.
+ Plan de acción e hitos: se desarrolla un plan de acción e hitos detallando planes de reparación para riesgos inaceptables identificados en los informes de evaluación en seguridad y privacidad.
+
+Autorización
+
+Proporciona responsabilidad a la gestión del riesgo al exigir que un responsable de la alta dirección determine si el riesgo de seguridad y privacidad de la implantación del sistema o de los controles es aceptable.
+
+ Paquete de autorización: se desarrolla un paquete de autorización y se envía a la persona responsable.
+
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+ Análisis e identificación de riesgos: el responsable analiza y presenta una identificación de riesgos de la organización que cumple la estrategia de gestión de riesgos, incluida la tolerancia al riesgo.
+ Respuesta a los riesgos: se facilitan las respuestas a los riesgos identificados.
+ Decisión de autorización: la decisión que afecta al sistema o a los controles se aprueba o se deniega.
+ Informes de autorización: se informa a la dirección de la decisión tomada y de las vulnerabilidades significativas del riesgo.
+
+Monitorización
+
+Persigue que la organización mantenga una continua concienciación acerca de la importancia que la seguridad y privacidad de los sistemas de información supone a la hora de apoyar las decisiones de gestión de riesgos. Las 7 tareas que componen esta etapa y los resultados a proporcionar son:
+
+ Cambios en el sistema y en el entorno: el sistema de información y el entorno operativo se monitorizan según la estrategia de monitorización.
+ Evaluaciones continuas: se realizan continuas evaluaciones de la efectividad de los controles conforme con la estrategia de monitorización.
+ Respuesta continua al riesgo: se analizan los resultados de las actividades de monitorización y se responde de forma adecuada.
+ Actualizaciones de paquetes de autorización: los documentos de gestión de riesgos se actualizan basándose en las actividades de monitorización.
+ Informes de seguridad y privacidad: existe un proceso que informa sobre seguridad y privacidad a los responsables y a la dirección.
+ Autorización continua: Los responsables conceden autorizaciones utilizando los resultados de las actividades de monitorización y comunican los cambios que afectan a la determinación del riesgo y a la toma de decisiones.
+ Eliminación del sistema: existe una estrategia de eliminación desarrollada, por si fuera necesaria su ejecución.
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+6.5. Tratamiento del riesgo
+
+Junto con los siete pasos vistos en el apartado anterior, es preciso incorporar una etapa final, conocida como tratamiento del riesgo cuyo objetivo es mejorar los controles existentes para el tratamiento del riesgo.
+
+El tratamiento de los riesgos, que debe ser una etapa dinámica y flexible para atender los posibles cambios que puedan producirse, precisa de la realización de actividades que involucran el registro, la actualización, la monitorización y la intervención. (ISOTools, S.f.)
+
+Este tratamiento del riesgo, que se proyecta a corto plazo, efectúa la monitorización mediante evaluaciones periódicas o auditorías, que son realizadas por el equipo designado al efecto. La formalización del tratamiento del riesgo da lugar a un plan de tratamiento del riesgo.
+
+Un plan de tratamiento del riesgo consiste en la planificación de las acciones a ejecutar para implementar los controles que sean necesarios para gestionar el riesgo de una organización.
+
+Si bien la existencia del plan permite actuar en determinadas situaciones establecidas, el tratamiento de riesgos va a tener que abordar una serie de problemas inherentes a los procesos de una organización TI:
+
+ La alta dirección no presta todo el apoyo preciso.
+ Existen stakeholders ausentes del proceso de gestión de riesgos.
+ La información no se comparte de forma efectiva.
+ La gestión de riesgos no está integrada en el sistema de planificación y gestión de la organización.
+
+
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+El ámbito de acción del plan de tratamiento del riesgo se encontrará en alguna de las siguientes situaciones:
+
+ La exposición del riesgo de la organización ha sufrido algún cambio desde el último análisis de riesgo realizado.
+ Existen evidentes síntomas de la aparición de nuevos riesgos que no habían sido detectados al principio del proceso.
+
+Ambas situaciones pueden abordarse desde dos estrategias, donde la organización deberá valorar el coste de las acciones a realizar y comparar este coste con las posibles pérdidas que puedan sufrir:
+
+Figura 4. Estrategias tratamiento del riesgo.
+
+
+Estrategias de evitación
+
+Buscan anticiparse al riesgo y minimizar su probabilidad de ocurrencia. Hay cuatro posibles estrategias de evitación:
+
+ La exposición del riesgo de la organización ha sufrido algún cambio desde el último análisis de riesgo realizado.
+ Transferencia: transfiere el riesgo presente en la organización a otra empresa, mediante la venta del activo de riesgo o la formulación de un seguro.
+ Reducción: busca reducir la probabilidad de ocurrencia o las consecuencias de un riesgo con nuevos controles o procedimientos que minimicen la posibilidad de que ocurra un error.
+
+
+        Gestión TI Tema 6. Ideas clave
+
+ Elusión: intenta eludir un riesgo bien no realizando la acción que conlleva el riesgo, bien buscando actividades alternativas que produzcan los mismos resultados, pero sin riesgos asociados.
+ Diversificación: extiende el riesgo de una sección concreta a otras áreas de la organización para diversificar y repartir las pérdidas del riesgo entre más secciones.
+
+Estrategias de minimización
+
+
+Se emplean cuando fallas las estrategias de evitación y el riesgo está ya presente en la organización. Se materializan a través de un plan de contingencia que intenta rebajar las pérdidas del riesgo y contiene los procedimientos a ejecutar, las tareas de cada procedimiento y los responsables de los mismos
+
+
+
+6.6. Referencias bibliográficas
+
+COSO. (2017). Enterprise Risk Management. Integrating with Strategy and performance: executive summary. COSO. https://www.coso.org/Documents/2017- COSO-ERM-Integrating-with-Strategy-and-Performance-Executive-Summary.pdf
+
+ENISA. (S. f.). Risk Assessment, European Union Agency for Cibersecurity. https://www.enisa.europa.eu/topics/threat-risk-management/risk- management/current-risk/risk-management-inventory/rm-process/risk-assessment
+
+ISOTools. (S. f.). Norma ISO 31000. El valor de la gestión de riesgos en las organizaciones. https://www.isotools.org/pdfs-pro/ebook-iso-31000-gestion- riesgos-organizaciones.pdf
+
+NIST. (2018). Risk Management Framework for Information Systems and Organizations. A System Life Cycle Approach for Security and Privacy (NIST Special
+
+        Gestión TI Tema 6. Ideas clave
+
+Publication 800-37. Rev. 2). NIST; U.S. Department of Commerce. https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf
+
+PAE. (2012). MAGERIT v.3: Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información. Ministerio de Hacienda y Administraciones Públicas. https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Me todolog/pae_Magerit.html
+
+Sotnikov, I. (25 de septiembre de 2020). How to perform IT Risk Assessment. Netwrix Blog. https://blog.netwrix.com/2018/01/16/how-to-perform-it-risk- assessment/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Gestión TI Tema 6. Ideas clave
+
+
+
+A fondo
+
+
+Performing a Security Risk Assessment
+
+
+
+Artículo publicado en la revista de ISACA donde se profundiza en cómo proceder para la realización de una evaluación segura del riesgo y los diferentes factores que deben ser considerados.
+
+
+
+
+
+
+
+
+9 Steps to a Successful Risk Assessment
+
+
+
+La revista CIO ofrece a través de su blog un interesante artículo donde se puede observar con mayor detenimiento el proceso de gestión y evaluación del riesgo y como una buena política de prevención permite disminuir su impacto en las organizaciones.
+
+
+
+     Gestión TI Tema 6. A fondo
+
+Gestión de Riesgos. Una guía de aproximación para el empresario
+
+
+
+El Instituto Nacional de Ciberseguridad facilita una guía de aproximación a la gestión de riesgos con el fin de exponer los principales conceptos y procesos relacionados con la gestión del riesgo y su aplicación práctica a la seguridad de la información, tan necesaria en las organizaciones TI.
+
+
+
+
+
+
+IT Risk Management Framework
+
+
+
+La autoridad tecnológica del Sultanato de Omán, ofrece una breve, pero completa descripción de los principales aspectos a considerar en la gestión del riesgo en tecnologías de la información, mostrando algunos ejemplos prácticos de análisis de riesgos, así como un buen
+glosario de posibles amenazas y vulnerabilidades.
+
+
+
+
+
+
+     Gestión TI Tema 6. A fondo
+
+The Use of Information Technology in Risk Management
+
+
+
+Tom Patterson, de la IBM Corporation, publica, a través de la American Institute of Certified Public Accountants, un interesante White paper donde afronta el uso de las tecnologías de la información en la gestión del riesgo. De esta forma, se puede observar como las TI permiten mejorar los procesos de auditoria y analizar con mayor efectividad la gestión del riesgo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     Gestión TI Tema 6. A fondo
+
+Gestión de riesgos y control interno: compliance en las empresas
+
+
+
+
+
+Archivo de vídeo distribuido por EALDE Business School, donde se nos muestra, a través de una conferencia de Isabel Casares San José-Marti, una visión general de la aplicación práctica de la gestión de riesgos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     Gestión TI Tema 6. A fondo
+
+
+
+Test
+
+1. En el proceso de la gestión de riesgos, ¿cuál es el paso que informa del impacto que puede suponer la pérdida de confidencialidad, integridad y disponibilidad de los sistemas TI?
+A. Clasificación.
+B. Evaluación.
+C. Selección.
+D. Monitorización.
+
+2. ¿Cuál de las siguientes herramientas no se emplea en las metodologías de análisis de riesgos cualitativos?:
+A. Cuestionario.
+B. Método Montecarlo.
+C. Brainstorming.
+D. Juicio de Expertos.
+
+
+3. ¿Qué componente propuesto por COSO transmite los resultados a los principales
+stakeholders?
+A. Gobierno y cultura.
+B. Revisión.
+C. Estrategia y establecimiento de objetivos.
+D. Rendimiento.
+
+
+4. ¿Cuál de las siguientes características no se encuentra en un perfil de riesgo?
+A. Razón del riesgo.
+B. Solución del riesgo.
+C. Probabilidad de que la amenaza se materialice.
+D. Fuente de la amenaza.
+
+
+
+
+
+  Gestión TI Tema 6. Test
+
+5. Indique la sentencia correcta con respecto al proceso de gestión de riesgos facilitado por el NIST:
+A. La selección adapta y documenta los controles necesarios para proteger el sistema de información.
+B. La evaluación persigue una alta concienciación acerca de la importancia que la seguridad y privacidad de los sistemas de información.
+C. La implementación observa si los controles seleccionados para la implementación se implementan correctamente.
+D. La monitorización implementa los controles previstos en los planes de seguridad y privacidad de la organización y crea una configuración base.
+
+6. La secuenciación parcial de pasos correcta en el proceso de gestión del riesgo es:
+A. Selección, Evaluación, Implementación, Autorización.
+B. Selección, Implementación, Evaluación, Autorización.
+C. Autorización, Selección, Implementación, Evaluación.
+D. Autorización, Selección, Evaluación, Implementación.
+
+
+7. ¿En cuál de los siguientes pasos del proceso de gestión del riesgo se desarrolla la tarea de «acciones reparadoras»?
+A. Clasificación.
+B. Implementación.
+C. Evaluación.
+D. Monitorización.
+
+
+8. Indique la sentencia incorrecta:
+A. La evaluación cualitativa evalúa el riesgo empleando fórmulas matemáticas.
+B. En la evaluación cuantitativa cuanto mayor es el valor mayor es el riesgo asociado.
+C. El método PERT es una de las herramientas empleadas en la evaluación cuantitativa.
+D. MAGERIT es una metodología empleada por la administración española.
+
+
+
+  Gestión TI Tema 6. Test
+
+9. La indefinición en la segregación de funciones se considera un:
+A. Riesgo operacional.
+B. Riesgo gubernamental.
+C. Riesgo sistemas TI.
+D. Riesgo estratégico.
+
+10. Si una organización TI vende un activo de riesgo, ¿¿qué tipo de estrategia de evitación estaría realizando?
+A. Transferencia.
+B. Reducción.
+C. Elusión.
+D. Diversificación.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Gestión TI Tema 6. Test

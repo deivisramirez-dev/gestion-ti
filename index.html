@@ -90,6 +90,14 @@
             background: linear-gradient(90deg, #00A79D, #007991);
         }
 
+        .theme-card.tema6::before {
+            background: linear-gradient(90deg, #e74c3c, #c0392b);
+        }
+
+        .theme-card.tema7::before {
+            background: linear-gradient(90deg, #27ae60, #2ecc71);
+        }
+
         .theme-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 35px rgba(0,0,0,0.15);
@@ -123,6 +131,14 @@
 
         .theme-card.tema5 .theme-icon {
             color: #00A79D;
+        }
+
+        .theme-card.tema6 .theme-icon {
+            color: #e74c3c;
+        }
+
+        .theme-card.tema7 .theme-icon {
+            color: #27ae60;
         }
 
         .magerit-card {
@@ -490,7 +506,7 @@
 
             <!-- Tema 5: Certificación CISA -->
             <div class="theme-card tema5 fade-in" onclick="navigateToTheme('Tema5')">
-                <span class="status-badge status-complete">Nuevo</span>
+                <span class="status-badge status-complete">Completo</span>
                 <i class="fas fa-award theme-icon"></i>
                 <h3 class="theme-title">Tema 5: Certificación CISA</h3>
                 <p class="theme-subtitle">Gobierno y Auditoría de SI</p>
@@ -509,11 +525,55 @@
                 </a>
             </div>
 
+            <!-- Tema 6: Gestión de Riesgos en SI -->
+            <div class="theme-card tema6 fade-in" onclick="navigateToTheme('Tema6')">
+                <span class="status-badge status-complete">Nuevo</span>
+                <i class="fas fa-exclamation-triangle theme-icon"></i>
+                <h3 class="theme-title">Tema 6: Gestión de Riesgos en SI</h3>
+                <p class="theme-subtitle">Análisis y Gestión de Riesgos</p>
+                <p class="theme-description">
+                    Aprende sobre la gestión integral de riesgos en sistemas de información, 
+                    incluyendo metodologías de análisis, proceso NIST y estrategias de tratamiento.
+                </p>
+                <ul class="theme-features">
+                    <li>Fundamentos de la Gestión del Riesgo</li>
+                    <li>Metodologías de Análisis (Cuantitativo/Cualitativo)</li>
+                    <li>Proceso NIST (7 pasos)</li>
+                    <li>Metodología MAGERIT</li>
+                    <li>Tratamiento del Riesgo</li>
+                </ul>
+                <a href="Tema6/index.html" class="btn-explore">
+                    <i class="fas fa-arrow-right me-2"></i>Explorar Tema
+                </a>
+            </div>
+
+            <!-- Tema 7: Gestión de Calidad en TI -->
+            <div class="theme-card tema7 fade-in" onclick="navigateToTheme('Tema7')">
+                <span class="status-badge status-complete">Nuevo</span>
+                <i class="fas fa-award theme-icon"></i>
+                <h3 class="theme-title">Tema 7: Gestión de Calidad en TI</h3>
+                <p class="theme-subtitle">Sistemas de Gestión de Calidad</p>
+                <p class="theme-description">
+                    Explora los sistemas de gestión de calidad en tecnologías de la información, 
+                    incluyendo modelos de calidad, ISO 9001:2015 y proceso de mejora continua.
+                </p>
+                <ul class="theme-features">
+                    <li>Modelos de Calidad del Software</li>
+                    <li>Norma ISO 9001:2015 (7 principios)</li>
+                    <li>Modelo EFQM</li>
+                    <li>Proceso de Mejora de la Calidad</li>
+                    <li>Ciclo PDCA</li>
+                </ul>
+                <a href="Tema7/index.html" class="btn-explore">
+                    <i class="fas fa-arrow-right me-2"></i>Explorar Tema
+                </a>
+            </div>
+
             <!-- Temas Futuros -->
             <div class="theme-card fade-in" style="opacity: 0.7;">
                 <span class="status-badge status-pending">Próximamente</span>
                 <i class="fas fa-clock theme-icon" style="color: #6c757d;"></i>
-                <h3 class="theme-title">Temas 6-9</h3>
+                <h3 class="theme-title">Temas 8-9</h3>
                 <p class="theme-subtitle">Contenido en Desarrollo</p>
                 <p class="theme-description">
                     Los siguientes temas del curso están en proceso de desarrollo 
@@ -522,7 +582,6 @@
                 </p>
                 <ul class="theme-features">
                     <li>Gestión de Proyectos TI</li>
-                    <li>Calidad de Software</li>
                     <li>Arquitectura Empresarial</li>
                     <li>Y más...</li>
                 </ul>
@@ -742,6 +801,14 @@
                 <span class="shortcut-key">Ctrl + 5</span>
             </div>
             <div class="shortcut-item">
+                <span>Navegar a Tema 6</span>
+                <span class="shortcut-key">Ctrl + 6</span>
+            </div>
+            <div class="shortcut-item">
+                <span>Navegar a Tema 7</span>
+                <span class="shortcut-key">Ctrl + 7</span>
+            </div>
+            <div class="shortcut-item">
                 <span>Volver a la página principal</span>
                 <span class="shortcut-key">Ctrl + 0</span>
             </div>
@@ -793,6 +860,14 @@
                     case '5':
                         event.preventDefault();
                         navigateToTheme('Tema5');
+                        break;
+                    case '6':
+                        event.preventDefault();
+                        navigateToTheme('Tema6');
+                        break;
+                    case '7':
+                        event.preventDefault();
+                        navigateToTheme('Tema7');
                         break;
                     case '0':
                         event.preventDefault();
@@ -850,6 +925,16 @@
                     title: 'Certificación CISA',
                     description: 'Dominios y conocimientos clave para la auditoría de sistemas.',
                     color: '#00A79D'
+                },
+                'Tema6': {
+                    title: 'Gestión de Riesgos en SI',
+                    description: 'Análisis y gestión integral de riesgos en sistemas de información.',
+                    color: '#e74c3c'
+                },
+                'Tema7': {
+                    title: 'Gestión de Calidad en TI',
+                    description: 'Sistemas de gestión de calidad en tecnologías de la información.',
+                    color: '#27ae60'
                 }
             };
 

@@ -1,0 +1,644 @@
+﻿
+Tema 7
+
+
+
+
+
+
+Gestión TI
+
+Gestión de calidad en tecnologías de la información
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ideas clave
+
+7.1. Introducción y objetivos
+
+La definición estándar de un sistema de gestión de calidad o Quality Management System (QMS) habla de:
+
+Sistema formalizado que documenta procesos, procedimientos y responsabilidades para lograr políticas y objetivos de calidad.
+
+Si bien, su interés para los directores de tecnologías de la información radica tanto en la posibilidad de abordar cambios en sus procesos de negocio que reduzcan sus costes y mejoren el grado de satisfacción de sus clientes, como en la posibilidad de obtener una certificación de calidad que les permita ver aumentada y reconocida su consideración y así poder acceder a nuevos nichos de mercado.
+
+El presente capítulo aborda la gestión de la calidad en las tecnologías de la información comenzando con una descripción de los principales modelos de calidad de software existentes y sus atributos referenciales. Seguidamente se describe la norma ISO 9001 en su versión 2015 como el referente mundial para las certificaciones empresariales en el ámbito de la calidad. El tema continúa con el modelo EFQM, como alternativa de implantación de calidad y concluye describiendo los principales pasos del proceso de mejora de la calidad.
+
+En cuanto a los objetivos a alcanzar pueden enumerarse los siguientes:
+
+
+ Conocer los modelos de calidad de software existentes y su evolución temporal.
+ Reflexionar acerca del contenido de la norma ISO 9001:2015 y su posibilidad de certificación.
+ Analizar el proceso de mejora de la calidad en organizaciones TI.
+
+
+        Gestión TI Tema 7. Ideas clave
+
+7.2. Modelos de calidad del software
+
+Los diferentes modelos existentes de calidad del software permiten a las organizaciones TI focalizar su actuación en ciertos parámetros a la hora de establecer una mejora continua de sus procesos. Tomando como referente la definición de calidad del software suministrada por la IEEE Std. 610-1990:
+
+Grado con el que un sistema, componente o proceso cumple los requerimientos especificados y las necesidades o expectativas del cliente o usuario.
+
+Es posible implementar un modelo de calidad que permita gestionar los atributos principales que intervienen en el proceso de desarrollo de software. Estos modelos basan su acción en el seguimiento y evaluación de cada etapa del ciclo de vida del software (Callejas, Alarcón y Álvarez, 2017).
+
+La determinación de estos atributos ha dado lugar a diferentes modelos de calidad perfectamente válidos y que deben ser adaptados por las organizaciones para su uso. Cada modelo va a estar compuesto por una serie de factores de calidad o atributos, cada uno de los cuales dispondrá de unos criterios de calidad que serán evaluados mediante métricas. Un esquema de esta estructura puede verse en la Figura 1:
+
+Figura 1. Estructura de la calidad del software.
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+En la actualidad el grado de satisfacción del cliente es una de las métricas más empleadas ante el auge del enfoque orientado al cliente. Otros autores orientan la calidad del software a las facilidades que ofrece el software una vez esté terminado. En estas circunstancias establecen una serie de capacidades, atributos o factores de calidad a constatar:
+
+ Fiabilidad: Capacidad de operar sin errores.
+ Modificable: Capacidad de hacer los cambios necesarios de una forma sencilla.
+ Comprensible: Capacidad de comprender el software operativo, de cara a un cambio o arreglo.
+ Rendimiento: Velocidad y compacidad del software.
+ Utilizable: Capacidad de uso sencillo del software.
+ Probable: Capacidad de construir y ejecutar fácilmente casos de prueba.
+ Portable: Capacidad de mover el software fácilmente de un entorno de trabajo a otro.
+
+A lo largo del tiempo, el ámbito de actuación de estos modelos ha estado orientado tanto hacia los procesos como hacia los productos con la esperanza de mejorar en ambos aspectos. Si bien han sido muchos los modelos desarrollados y sus variantes, los referentes más importantes, con su evolución temporal, han sido los siguientes que pueden profundizarse en (Callejas, Alarcón y Álvarez, 2017):
+
+Figura 2. Modelos de calidad del software orientados a procesos.
+
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+
+
+Figura 3. Modelos de calidad del software orientados a productos.
+
+
+
+
+7.3. Norma ISO 9001:2015
+
+La norma ISO 9001:2015 es una norma internacional que está orientada a los sistemas de gestión de calidad. La norma proporciona un marco de trabajo para la mejora de la calidad en las organizaciones de manera que cumpla con satisfacción y eficiencia las expectativas de sus clientes. La norma tiene sus orígenes en el año 1987 y esta versión del 2015 reemplaza a la del año 2008.
+
+La norma no especifica a las organizaciones ni sus objetivos, ni como alcanzarlos. Se trata de una norma suficientemente flexible que define una serie de principios con el fin de lograr, mediante la reducción de costes y el cumplimiento de los requisitos, el alineamiento de los procesos y los objetivos estratégicos de una organización (What is ISO 9001:2015, 2019)
+
+Uno de los aspectos más valorados por las organizaciones con respecto a esta norma es la posibilidad de obtener una certificación ISO 9001. La obtención de esta certificación es proporcionada por un organismo independiente de certificación (por ejemplo, AENOR) que audita a las empresas, independientemente de su tamaño, para observar si cumplen los requisitos de la ISO 9001:2015. La disposición de esta certificación dota a las organizaciones de un mayor atractivo para su contratación.
+
+
+        Gestión TI Tema 7. Ideas clave
+
+La norma ISO 9001:2015 cuenta con 7 principios para la gestión de la calidad que son la base estratégica para todas las decisiones relacionadas con la gestión de la calidad. (ISO Quality, 2015). Estos principios serán priorizados según estime oportuno cada organización:
+
+ Enfoque al cliente: obliga a la organización a focalizar su acción en el cliente y a cumplir sus expectativas para tener clientes satisfechos.
+ Liderazgo: una organización demuestra su liderazgo asegurando la disposición de recursos para los proyectos de gestión de la calidad y fomentando la cultura de calidad en toda la organización.
+ Compromiso de las personas: los empleados deben estar plenamente involucrados y motivados en la consecución de los objetivos empresariales bajo una cultura de gestión de la calidad.
+ Enfoque a procesos: considera a los procesos como parte de un sistema global que proporcionan resultados predecibles, cuyos elementos pueden ser mejorados para mitigar los posibles riesgos de cada proceso.
+ Mejora: busca reaccionar a los cambios internos o externos para establecer mejoras en los procesos que sean nuevas oportunidades de negocio para la organización.
+ Toma de decisiones basadas en evidencias: otorga mayor objetividad a una empresa en sus decisiones de mejora continua, permitiendo revisar con mayor facilidad los resultados obtenidos de cara a mejorar su eficiencia y eficacia.
+ Gestión suministradores: cada organización debe analizar sus relaciones con los proveedores para conocer sus límites, riesgos y oportunidades.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+
+
+Figura 4. Principios norma ISO 9001:2015.
+
+
+Junto con estos principios, la norma cuenta con un subconjunto de 5 elementos tácticos para complementar los 7 principios estratégicos proporcionados (What is ISO 9001:2015, 2019):
+
+El ciclo Plan-Do-Check-Act (PDCA)
+
+
+Se trata de un enfoque basado en procesos que emplea un ciclo de mejora continua para gestionar el sistema de gestión de calidad desde la planificación hasta las mediciones y mejoras para aumentar la satisfacción del cliente.
+
+ Plan: La organización establece los objetivos del sistema de gestión de calidad y señala los procesos afectados proporcionándoles todos los recursos necesarios para cumplir los requisitos de los clientes, mitigando riesgos e identificando nuevas oportunidades.
+ Do: Esta fase implementa el QMS conforme a lo planificado.
+ Check: Se efectúan mediciones y comprobaciones en los procesos para comprobar si cumplen con los requisitos y objetivos establecidos.
+
+        Gestión TI Tema 7. Ideas clave
+
+ Act: A la vista de las desviaciones existentes, se establecen acciones correctivas y, así, mejorar el rendimiento del sistema de gestión de la calidad, dando lugar a una nueva iteración.
+
+Pensamiento basado en el riesgo
+
+El pensamiento basado en el riesgo siempre ha estado presentes en la norma ISO 9001, pero la versión de 2015 especifica más el concepto de riesgo dentro de una organización. En este enfoque, junto con las oportunidades para desarrollar un nuevo producto o mejorar uno antiguo, siempre van a coexistir unos riesgos asociados con el cambio.
+
+Por lo tanto, la norma define el riesgo no como la probabilidad de pérdida o daño, sino como «el efecto de la incertidumbre», donde cohabitan la posible pérdida con otra posible oportunidad. El conocimiento completo del entorno del riesgo y su gestión dará lugar a un sistema de gestión de la calidad más efectivo, donde las oportunidades prevalecerán sobre las pérdidas.
+
+La norma no proporciona métodos prescriptivos para efectuar la gestión de riesgos en una organización, por lo que cada organización puede dar su propio enfoque para gestionar el nivel de riesgo que asume.
+
+Liderazgo
+
+La presencia de un liderazgo efectivo en la norma ISO 9001:2015 hace que la dirección deje de, simplemente, prestar apoyo al sistema de gestión de la calidad para pasar a involucrarse más en el QMS y alcanzar un compromiso que satisfaga a los clientes y a sus requisitos.
+
+
+
+
+
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+Como principales funciones de este liderazgo destacan (What is ISO 9001:2015, 2019):
+
+ Establecer y comunicar una política general de sistema de gestión de la calidad para toda la organización.
+ Asumir la responsabilidad de la efectividad del QMS.
+ Asegurar que el QMS está alineado con el contexto de la organización.
+ Adquirir los recursos necesarios para el QMS.
+ Comunicar la importancia de adhesión al QMS.
+ Promocionar la mejora continua del QMS.
+
+
+Estructura unificada
+
+En el año 2011 ISO desarrolló una estructura unificada para sus estándares publicándolos como Anexo SL en todas sus directivas ISO/IEC. De esta forma, todas las normas ISO presentan elementos unificados idénticos que se estructuran en 10 apartados. La descripción del contenido de estos apartados para la norma ISO 9001:2015 se realiza a continuación, si bien en la bibliografía se dispone de una guía de implantación de la norma (NQA, 2016) y la propia referencia ISO (ISO, 2016) que ayudan a profundizar más en el contenido de cada apartado:
+
+ Alcance: la norma puede aplicarse en organizaciones que desarrollen productos y servicios y quieran mostrar su capacidad para cumplir con los requisitos del cliente y las obligaciones legales.
+
+ Referencias normativas: contiene las normativas en las que se apoya. En este caso ISO 9000:2015 Quality management systems–Fundamentals and vocabulary es el documento de apoyo.
+
+ Términos y definiciones: Especifica los términos y definiciones empleadas. Se remite al documento especificado en referencias normativas.
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+ Contexto de la organización: Se identifican los requisitos y prioridades relevantes para los objetivos del QMS. Se establece el alcance del sistema de gestión de la calidad y cuáles serán los procesos que conformarán el mismo.
+
+ Liderazgo: El liderazgo de la dirección debe demostrar su compromiso con el QMS garantizando la alineación con los objetivos y procesos estratégicos, estableciendo responsabilidades entre el personal competente y suministrando cuantos recursos sean necesarios para alcanzar los resultados deseados por el cliente.
+
+ Planificación: Considerando el contexto y los requisitos de todas las partes afectadas, la organización planifica como proceder a la implantación del QMS buscando mejorar los procesos de calidad. Debe establecer objetivos de calidad realistas y los medios para medir su impacto, de manera que se pueda actuar para reducir los resultados indeseados.
+
+ Soporte: Las organizaciones deben disponer de los recursos necesarios para la implementación y el mantenimiento del QMS. Igualmente deben mantener toda la documentación requerida.
+
+ Operación: La implementación del sistema de gestión de la calidad debe hacerse en los términos establecidos en la etapa de planificación, asegurando el cumplimiento con los requisitos de los clientes, y una correcta documentación.
+
+ Evaluación del desempeño: Mediante auditorías internas se mide y se evalúa la efectividad del QMS para asegurar que cumple con los requisitos del cliente. Esta revisión se efectúa con regularidad para evitar desviaciones con respecto al alineamiento de la estrategia empresarial.
+
+ Mejora: En este apartado la organización identifica y documenta las oportunidades donde aplicar la mejora continua y toma las acciones necesarias para corregir aspectos no deseados.
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+
+
+Figura 5. Estructura unificada Norma 9001:2015.
+
+
+Documentación requerida
+
+
+La norma ISO 9001:2015 no especifica un procedimiento para la gestión de la documentación, dejando libre a cada organización como proceder para disponer de toda la documentación. La norma habla de «información documentada» para sugerir documentación de trabajo, como procedimientos e instrucciones de trabajo, y utiliza
+«conservar información documentada» para sugerir registros.
+
+Este enfoque menos prescriptivo permite a las organizaciones determinar su propio alcance para la gestión de la documentación, pero no evita que la organización deba disponer de esa información cuando esta sea precisa. Los procesos que si requieren documentación se encuentra en todo el estándar y no en una única sección, por lo que su sintetización resulta dificultosa a nivel organizacional.
+
+
+
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+
+7.4. El proceso de la gestión del riesgo
+
+El modelo de la European Foundation Quality Management (EFQM) es un modelo de calidad desarrollado por la Fundación Europea para la Gestión de la Calidad que ayuda a las organizaciones a obtener la certificación ISO. Si bien no es un modelo reconocido dentro de las normas ISO, presta una orientación importante a las organizaciones para trabajar en sus procesos con calidad, eficiencia y eficacia y, así, conocer mejor su propio funcionamiento interno (Escuela Europea de Excelencia, 2018).
+
+El modelo está orientado hacia la excelencia y fundamentado en la filosofía o concepto de calidad total. Para alcanzar esta calidad total evalúa los progresos de los sistemas de gestión de una organización, de acuerdo con unos criterios propios establecidos por el modelo que afectan a todas las áreas de la organización. Cuando el sistema cumpla estos criterios, la organización será considerada como una organización de calidad y cuyos procesos estarán continuamente en mejora para alcanzar la excelencia.
+
+        Gestión TI Tema 7. Ideas clave
+
+
+
+Figura 6. Modelo EFQM. Fuente: https://www.tqm.es/TQM/ModEur/ModeloEuropeo.htm
+
+
+Los criterios establecidos por el modelo EFQM se dividen en dos grandes bloques:
+
+
+Figura 7. Criterios modelo EFQM.
+
+
+Agentes
+
+
+Los agentes, integrados en los sistemas de gestión, son los desencadenantes de los resultados, quienes intervienen en el alcance correcto de los resultados. Son cinco criterios que son evaluados preferentemente en términos de efectividad:
+
+ Liderazgo: Actitud de los directivos para inculcar una cultura de gestión de calidad en la organización.
+ Política y estrategia: Observa si las políticas de la organización se traducen en planes de actuación.
+ Personal: Analiza el máximo aprovechamiento de los recursos humanos.
+ Colaboradores y recursos: Mide en términos de eficacia y eficiencia el uso de los recursos disponibles.
+
+
+        Gestión TI Tema 7. Ideas clave
+
+ Procesos: Revisa, monitoriza y propone mejoras de los procesos de la organización para alcanzar la excelencia.
+
+Resultados
+
+
+Los resultados exponen lo que los procesos productivos proporcionan y se comparan con los de otras organizaciones de la misma área, al objeto de observar su tendencia positiva o negativa en ese ámbito de actuación. Pueden ser de cuatro tipos:
+
+ Resultados en las personas: expresan el grado de satisfacción de los empleados de la organización y deben tender hacia el incremento.
+ Resultados en los clientes: comprueba que la satisfacción del cliente con el producto final obtenido satisface sus expectativas.
+ Resultados en la sociedad: analiza si la organización proporciona algún bienestar social con sus resultados (becas, medio ambientales...).
+ Rendimiento: miden el rendimiento global de la organización en términos de eficacia y eficiencia para alcanzar los objetivos empresariales.
+
+El modelo, corroborado normalmente cada año, busca establecer una interconexión entre agentes y resultados tendentes a alcanzar la excelencia, donde los procesos estarán mejorando continuamente para amoldarse a las nuevas circunstancias o resultados de empleados, clientes y la sociedad.
+
+Si bien se ha dicho que la norma ISO 9001:2015 y el modelo EFQM son distintos, ambos modelos identifican las fortalezas y debilidades de la organización TI y facilitan una base para un proceso de mejora continua.
+
+
+
+
+
+
+
+
+
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+
+7.5. Proceso de mejora de la calidad
+
+A la hora de establecer o implantar un proceso de mejora de calidad en una organización TI, coexisten varias guías que reflejan la experiencia de las distintas empresas en la implementación del proceso da cara a alcanzar la certificación ISO 9001. Estas guías difieren en los pasos a realizar, pero no así en su contenido que tiene que estar circunscrito a la citada norma.
+
+Entre estas guías, destaca la del ETI Group (2014) que descomponen el proceso en 4 fases para ayudar a las organizaciones TI a satisfacer las necesidades de su negocio:
+
+ Planificación y diseño.
+ Desarrollo de documentación.
+ Implementación.
+ Evaluación y registro.
+
+
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+
+
+Figura 8. Fases proceso implantación QMS.
+
+
+A su vez, las fases se dividen en una serie de pasos que conformarán todo el proceso para alcanzar la certificación ISO 9001:2015 y que serán descritos a continuación:
+
+Paso 1: Obtener el compromiso de la alta dirección
+
+Es imprescindible el compromiso de la alta dirección para implantar el QMS. Debe decidir la política de calidad, sus objetivos, los servicios o productos que se ven afectados y el tiempo previsto para la implantación. Igualmente debe liderar la búsqueda de los problemas externos e internos relevantes para su operativa.
+
+Paso 2: Nombrar el equipo del proyecto
+
+
+La dirección nombra un representante suyo en el equipo de proyecto que, además de poseer sólidos conocimientos sobre la norma, se encargará de supervisar la implantación del QMS y liderará un equipo de apoyo.
+
+Paso 3: Capacitación del personal
+
+
+Es preciso informar al personal de la intención de implantar un QMS. Se les da a conocer la norma ISO 9001:2015, los conceptos básicos, la relación con los objetivos estratégicos y los cambios culturales que aporta el QMS.
+
+        Gestión TI Tema 7. Ideas clave
+
+Paso 4: Identificación de requisitos
+
+
+Se procede a identificar todos los requisitos que afecten el QMS, tanto los del cliente, como los legales o los de los stakeholders.
+
+Paso 5: Realizar una evaluación de desfases
+
+
+El representante de la dirección compara el QMS existente con los requisitos del estándar ISO 9001 para determinar los desfases existentes y las acciones de mejora de calidad a planificar. En esta labor identifica los procesos y procedimientos que cumplen el estándar, los que requieren modificaciones e incluso los que deben crearse al no existir en la organización TI.
+
+Paso 6: Planificar la implementación
+
+
+Una vez efectuados los desfases, es preciso planificar las acciones de mejora que deben realizarse para cumplir la norma. El plan de implementación para cada acción de mejora contendrá:
+
+ Documentación que precise la norma.
+ Responsable de la acción.
+ Formación requerida.
+ Recursos necesarios.
+ Fecha estimada de finalización.
+
+
+Paso 7: Desarrollo de la documentación
+
+
+Es preciso desarrollar la documentación obligatoria que se encuentra dispersa por la norma:
+
+ Manual con la declaración de la política y objetivos de calidad.
+ Procedimientos del diseño y control de los procesos QMS.
+
+        Gestión TI Tema 7. Ideas clave
+
+ Definiciones de procesos.
+ Instrucciones de trabajo.
+
+Paso 8: Formación de empleados
+
+
+Hay que formar al personal de la organización para que esté capacitado para desarrollar el plan de implementación realizado.
+
+Paso 9: Seleccionar un certificador QMS
+
+
+Un organismo de certificación es una organización independiente que está oficialmente acreditada para emitir certificaciones QMS. El certificador auditará el QMS de su empresa y, si la auditoría es exitosa, emitirá un certificado confirmando que su QMS cumple con los requisitos de ISO 9001:2015.
+
+Paso 10: Realizar auditorías internas
+
+
+ISO 9001 requiere que con periodicidad se realicen auditorías internas para analizar la efectividad del QMS y comprobar que cumple los requisitos de ISO 9001. Es necesario formar a algunos empleados internos para realizar una auditoría interna completa antes de pasar a realizar la auditoría de certificación.
+
+Paso 11: Revisar la gestión
+
+Busca asegurar el correcto funcionamiento de las medidas adoptadas en todo el QMS para cumplir con la norma y comprueba que se ha hecho de forma eficaz. Esta revisión incluye la búsqueda de oportunidades de mejora o la necesidad de cambios por aspectos legales o administrativos, que puedan continuar mejorando el sistema de gestión de la calidad.
+
+
+
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+Paso 12: Auditoria de preevaluación
+
+
+Cuando se implanta un QMS se debe hacer una primera auditoría de preevaluación para analizar si la documentación de la organización cumple con lo establecido en la norma y que se cumplen los requisitos estándar de la norma.
+
+Paso 13: Acciones correctivas
+
+
+Tras la auditoría de preevaluación, se revisan los resultados obtenidos y se toman las acciones correctivas pertinentes para cumplir con la norma.
+
+Paso 14: Auditoria de certificación
+
+Esta segunda auditoría comprueba que las acciones correctivas han cumplido su propósito y que el sistema de gestión de la calidad se ajusta perfectamente a la norma ISO 9001, procediendo a concederle el certificado ISO 9001 por tres años, que será revisado periódicamente para mantener la certificación.
+
+Paso 15: Mejora continua
+
+
+La consecución de la certificación no es el final del proceso, ya que debe estar en un proceso de mejora continua para aumentar la eficiencia del sistema y estar actualizado en tecnología.
+
+
+
+7.6. Referencias bibliográficas
+
+Callejas, M., Alarcón, A. C. y Álvarez, A. M. (2017) Modelos de calidad del software, un estado del arte. Entramado, 13(1), 236-250. http://dx.doi.org/10.18041/entramado.2017v13n1.25125
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+Escuela Europea de Excelencia. (6 de noviembre 2018). ¿Qué significa el modelo EFQM para las organizaciones? Nueva ISO 9001:2015. https://www.nueva-iso-9001- 2015.com/2018/11/que-significa-el-modelo-efqm-para-las-organizaciones/
+
+ETI Group. (2014). Implementing an ISO 9001 Quality Management System. ETI Group. https://www.mcedd.org/documents/IMCP/Ebook%20on%20How%20to%20Implem ent%20an%20ISO%209001%20QMS.pdf
+
+ISO. (2016). ISO 9001:2015. Sistemas de gestión de calidad. Requisitos. https://www.iso.org/obp/ui/#iso:std:iso:9001:ed-5:v1:es
+
+ISO Quality. (2015) Quality Management Principles. https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100080.pdf
+
+NQA. (2016). ISO 9001:2015.Guía de implantación para la gestión de la calidad. https://www.nqa.com/medialibraries/NQA/NQA-Media- Library/PDFs/Spanish%20PDFs/NQA-ISO-9001-Guia-de-Implantacion.pdf
+
+What is ISO 9001:2015 and why is it important? (1 de febrero de 2019). Quality Magazine. https://www.qualitymag.com/articles/95235-what-is-iso-90012015-and- why-is-it-important
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Gestión TI Tema 7. Ideas clave
+
+
+
+A fondo
+
+
+Expectations & benefits of an effective QMS
+
+
+
+La empresa americana NQA dedicada a las certificaciones, muestra en este blog, a través de Kevin Gunn, los principales beneficios a alcanzar con un sistema de gestión de calidad y lo hace confrontando la monitorización frente a las mediciones, analizando las principales diferencias en procesos y servicios.
+
+
+
+
+Diseño e implementación de un sistema de gestión de la calidad ISO 9001:2015 en una universidad colombiana
+
+
+La revista Formación Universitaria publica un artículo académico que muestra de forma práctica el proceso de implantación de la ISO 9001:2015, y su aplicación a una organización universitaria de Colombia.
+
+     Gestión TI Tema 7. A fondo
+
+Técnicas de mejora de la calidad
+
+
+
+Como hemos visto durante el tema, la implementación de sistemas de calidad es de vital importancia para la mejora de las organizaciones. Este cuaderno de la UNED nos permite profundizar en las diferentes técnicas de mejora de la calidad existentes y nos muestra algunos ejemplos de su aplicación.
+
+
+
+
+
+
+How to successfully implement ISO 9001:2015 with a minimal documents approach
+
+
+
+
+
+Interesante vídeo donde Debra Hampton muestra cómo proceder a implementar la norma ISO 9001:2015 de una forma sencilla y práctica para que el desarrollo de un sistema de calidad en una organización no sea una tarea larga y tediosa.
+
+
+     Gestión TI Tema 7. A fondo
+
+ISO
+
+
+
+Página web oficial de la International Organization for Standardization, que es la principal organización de referencia en el desarrollo de normas y estándares comunes a todo el mundo, con respecto a servicios, procesos, productos y sistemas, que permiten la evaluación de los procedimientos de una organización y el establecimiento de procesos de mejora.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     Gestión TI Tema 7. A fondo
+
+
+
+Test
+
+1. ¿En cuál de los diez apartados de la norma ISO 9001:2015 se mide la efectividad del QMS para asegurar que cumple con los requisitos del cliente?
+A. Soporte.
+B. Operación.
+C. Evaluación del desempeño.
+D. Mejora.
+
+
+2. La concesión del certificado ISO 9001 es por un periodo de:
+A. Un año.
+B. Dos años.
+C. Tres años.
+D. Indefinidamente.
+
+3. ¿En qué fase del proceso de implantación de un QMS se efectúa la evaluación de desfases?
+A. Planificación y diseño.
+B. Implementación.
+C. Desarrollo de la documentación.
+D. Evaluación y registro.
+
+
+4. En el modelo EFQM, ¿cuál de los siguientes criterios inculca una cultura de gestión de calidad en la organización?
+A. Procesos.
+B. Colaboradores y recursos.
+C. Política y estrategia.
+D. Liderazgo.
+
+
+
+
+
+
+
+  Gestión TI Tema 7. Test
+
+5. Indique la sentencia correcta:
+A. La norma ISO 9001:2015 especifica un procedimiento para la gestión de la documentación.
+B. En la norma ISO 9001:2015 los procesos que requieren documentación se encuentra repartidos por todo el estándar.
+C. La norma ISO 9001:2015 utiliza «conservar información documentada» para sugerir documentación de trabajo.
+D. La norma ISO 9001:2015 habla de «información documentada» para sugerir registros.
+
+6. La secuenciación de elementos en la estructura de los modelos de calidad es:
+A. Factor de calidad, métricas, criterios de calidad.
+B. Factor de calidad, criterios de calidad, métricas.
+C. Criterios de calidad, métricas, factor de calidad.
+D. Criterios de calidad, factor de calidad, métricas.
+
+
+7. ¿Por qué es necesario hacer una auditoría de preevaluación en el proceso de implantación de un QMS?
+A. Para desarrollar la documentación obligatoria que se encuentra dispersa por la norma.
+B. Para observar que el personal está capacitado para desarrollar el plan de implementación.
+C. Para asegurar el correcto funcionamiento de las medidas adoptadas en todo el QMS.
+D. Para analizar si la documentación de la organización cumple con lo establecido en la norma.
+
+
+
+
+
+
+
+
+
+
+
+
+  Gestión TI Tema 7. Test
+
+8. Indique la sentencia incorrecta con respecto a los principios de la norma ISO 9001:2015:
+A. El enfoque al cliente obliga a la organización a cumplir las expectativas del cliente para tener clientes satisfechos.
+B. La toma de decisiones basadas en evidencias permite revisar con mayor facilidad los resultados obtenidos de cara a mejorar su eficiencia y eficacia.
+C. El enfoque a procesos considera a los procesos como parte de un sistema global que proporcionan resultados predecibles.
+D. La gestión de suministradores asegura la disposición de recursos para los proyectos de gestión de la calidad.
+
+9. Dentro del modelo EFQM, el grado de satisfacción de los empleados de la organización se expresa en:
+A. Resultados en los clientes.
+B. Resultados en las personas.
+C. Resultados en la sociedad.
+D. Rendimiento.
+
+10. ¿Qué expresa la fiabilidad como factor de calidad del software?
+A. Capacidad de uso sencillo del software.
+B. Capacidad de construir y ejecutar casos de prueba.
+C. Velocidad y compacidad del software.
+D. Capacidad de operar sin errores.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Gestión TI Tema 7. Test
