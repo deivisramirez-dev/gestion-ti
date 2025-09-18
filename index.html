@@ -98,6 +98,10 @@
             background: linear-gradient(90deg, #27ae60, #2ecc71);
         }
 
+        .theme-card.tema8::before {
+            background: linear-gradient(90deg, #8e44ad, #9b59b6);
+        }
+
         .theme-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 35px rgba(0,0,0,0.15);
@@ -139,6 +143,10 @@
 
         .theme-card.tema7 .theme-icon {
             color: #27ae60;
+        }
+
+        .theme-card.tema8 .theme-icon {
+            color: #8e44ad;
         }
 
         .magerit-card {
@@ -549,7 +557,7 @@
 
             <!-- Tema 7: Gestión de Calidad en TI -->
             <div class="theme-card tema7 fade-in" onclick="navigateToTheme('Tema7')">
-                <span class="status-badge status-complete">Nuevo</span>
+                <span class="status-badge status-complete">Completo</span>
                 <i class="fas fa-award theme-icon"></i>
                 <h3 class="theme-title">Tema 7: Gestión de Calidad en TI</h3>
                 <p class="theme-subtitle">Sistemas de Gestión de Calidad</p>
@@ -569,15 +577,37 @@
                 </a>
             </div>
 
+            <!-- Tema 8: Normativas Tecnológicas de Seguridad -->
+            <div class="theme-card tema8 fade-in" onclick="navigateToTheme('Tema8')">
+                <span class="status-badge status-complete">Nuevo</span>
+                <i class="fas fa-shield-virus theme-icon"></i>
+                <h3 class="theme-title">Tema 8: Normativas Tecnológicas</h3>
+                <p class="theme-subtitle">ISO 27001 - Sistema de Gestión de Seguridad</p>
+                <p class="theme-description">
+                    Domina las normativas tecnológicas de seguridad, la norma ISO 27001:2013, 
+                    los 3 pilares del SGSI y las 9 fases de implementación de un sistema de gestión.
+                </p>
+                <ul class="theme-features">
+                    <li>Sistema de Gestión SGSI (3 pilares)</li>
+                    <li>ISO 27001:2013 (10 cláusulas)</li>
+                    <li>ISO 27002 (14 dominios, 114 controles)</li>
+                    <li>Implantación SGSI (9 fases)</li>
+                    <li>Modelo PDCA</li>
+                </ul>
+                <a href="Tema8/index.html" class="btn-explore">
+                    <i class="fas fa-arrow-right me-2"></i>Explorar Tema
+                </a>
+            </div>
+
             <!-- Temas Futuros -->
             <div class="theme-card fade-in" style="opacity: 0.7;">
                 <span class="status-badge status-pending">Próximamente</span>
                 <i class="fas fa-clock theme-icon" style="color: #6c757d;"></i>
-                <h3 class="theme-title">Temas 8-9</h3>
+                <h3 class="theme-title">Tema 9</h3>
                 <p class="theme-subtitle">Contenido en Desarrollo</p>
                 <p class="theme-description">
-                    Los siguientes temas del curso están en proceso de desarrollo 
-                    y serán implementados próximamente con la misma calidad 
+                    El siguiente tema del curso está en proceso de desarrollo 
+                    y será implementado próximamente con la misma calidad 
                     y funcionalidad interactiva.
                 </p>
                 <ul class="theme-features">
@@ -809,6 +839,10 @@
                 <span class="shortcut-key">Ctrl + 7</span>
             </div>
             <div class="shortcut-item">
+                <span>Navegar a Tema 8</span>
+                <span class="shortcut-key">Ctrl + 8</span>
+            </div>
+            <div class="shortcut-item">
                 <span>Volver a la página principal</span>
                 <span class="shortcut-key">Ctrl + 0</span>
             </div>
@@ -868,6 +902,10 @@
                     case '7':
                         event.preventDefault();
                         navigateToTheme('Tema7');
+                        break;
+                    case '8':
+                        event.preventDefault();
+                        navigateToTheme('Tema8');
                         break;
                     case '0':
                         event.preventDefault();
@@ -935,6 +973,11 @@
                     title: 'Gestión de Calidad en TI',
                     description: 'Sistemas de gestión de calidad en tecnologías de la información.',
                     color: '#27ae60'
+                },
+                'Tema8': {
+                    title: 'Normativas Tecnológicas de Seguridad',
+                    description: 'ISO 27001 - Sistema de Gestión de Seguridad de la Información.',
+                    color: '#8e44ad'
                 }
             };
 

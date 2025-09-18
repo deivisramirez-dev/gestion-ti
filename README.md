@@ -70,6 +70,35 @@ Facilitar la enseñanza de conceptos de Gestión de Tecnologías de Información
 - **Principios COBIT**: Los 5 principios básicos
 - **Modelo de Capacidad**: 6 niveles de evaluación
 
+### 🛡️ **Tema 5: Certificación CISA** (`Tema5/index.html`)
+- **Proceso de Auditoría de SI**: Metodologías y técnicas
+- **Gobierno y Gestión de TI**: Marcos de control
+- **Adquisición y Desarrollo**: Ciclo de vida de sistemas
+- **Operaciones y Mantenimiento**: Gestión operacional
+- **Protección de Activos**: Seguridad de la información
+
+### ⚠️ **Tema 6: Gestión de Riesgos en SI** (`Tema6/index.html`)
+- **Fundamentos de la Gestión del Riesgo**: Conceptos básicos
+- **Metodologías de Análisis**: Cuantitativo y cualitativo
+- **Proceso NIST**: 7 pasos para gestión de riesgos
+- **Metodología MAGERIT**: Análisis y gestión de riesgos
+- **Tratamiento del Riesgo**: Estrategias de mitigación
+
+### 🏆 **Tema 7: Gestión de Calidad en TI** (`Tema7/index.html`)
+- **Modelos de Calidad del Software**: Estándares y marcos
+- **Norma ISO 9001:2015**: 7 principios de calidad
+- **Modelo EFQM**: Excelencia en la gestión
+- **Proceso de Mejora de la Calidad**: Metodologías
+- **Ciclo PDCA**: Mejora continua
+
+### 🔒 **Tema 8: Normativas Tecnológicas de Seguridad** (`Tema8/index.html`)
+- **Sistema de Gestión SGSI**: Los 3 pilares fundamentales
+- **Anexo SL**: Estructura común de todas las normas ISO
+- **ISO 27001:2013**: Las 10 cláusulas del Anexo SL
+- **ISO 27002**: 14 dominios y 114 controles
+- **Implantación SGSI**: Las 9 fases de implementación
+- **Modelo PDCA**: Mejora continua en seguridad
+
 
 ## 🖥️ Instalación y Uso
 
@@ -89,12 +118,16 @@ Facilitar la enseñanza de conceptos de Gestión de Tecnologías de Información
 - **Tema 2**: Abrir `Tema2/index.html` - Gestión de Riesgos TI
 - **Tema 3**: Abrir `Tema3/index.html` - Continuidad del Negocio
 - **Tema 4**: Abrir `Tema4/index.html` - Gobierno TI - Framework COBIT
+- **Tema 5**: Abrir `Tema5/index.html` - Certificación CISA
+- **Tema 6**: Abrir `Tema6/index.html` - Gestión de Riesgos en SI
+- **Tema 7**: Abrir `Tema7/index.html` - Gestión de Calidad en TI
+- **Tema 8**: Abrir `Tema8/index.html` - Normativas Tecnológicas de Seguridad
 - **Temas futuros**: Seguir el mismo patrón de carpetas
 
 ### Controles
 - **Página Principal**: Navegación central con tarjetas de temas
 - **Botones de navegación**: Cambiar entre secciones dentro de cada tema
-- **Teclas de acceso rápido**: Ctrl/Cmd + 1-4 para navegar a temas, Ctrl/Cmd + 0 para volver
+- **Teclas de acceso rápido**: Ctrl/Cmd + 1-8 para navegar a temas, Ctrl/Cmd + 0 para volver
 - **Hover**: Efectos visuales en tarjetas y elementos
 - **Responsive**: Adaptación automática a dispositivos móviles
 
@@ -131,7 +164,28 @@ gestion-ti/
 │   ├── styles.css              # Estilos específicos (paleta púrpura/índigo)
 │   ├── script.js               # Lógica JavaScript del tema
 │   └── README.md               # Documentación específica del tema
-└── [Tema5-Tema9]/              # Carpetas para temas futuros
+├── Tema5/                       # Tema 5: Certificación CISA
+│   ├── index.html              # Interfaz principal del tema
+│   ├── styles.css              # Estilos específicos (paleta turquesa)
+│   ├── script.js               # Lógica JavaScript del tema
+│   └── README.md               # Documentación específica del tema
+├── Tema6/                       # Tema 6: Gestión de Riesgos en SI
+│   ├── index.html              # Interfaz principal del tema
+│   ├── styles.css              # Estilos específicos (paleta roja)
+│   ├── script.js               # Lógica JavaScript del tema
+│   └── README.md               # Documentación específica del tema
+├── Tema7/                       # Tema 7: Gestión de Calidad en TI
+│   ├── index.html              # Interfaz principal del tema
+│   ├── styles.css              # Estilos específicos (paleta verde)
+│   ├── script.js               # Lógica JavaScript del tema
+│   └── README.md               # Documentación específica del tema
+├── Tema8/                       # Tema 8: Normativas Tecnológicas de Seguridad
+│   ├── index.html              # Interfaz principal del tema
+│   ├── styles.css              # Estilos específicos (paleta púrpura)
+│   ├── script.js               # Lógica JavaScript del tema
+│   ├── README.md               # Documentación específica del tema
+│   └── tema8.txt               # Contenido original del tema
+└── [Tema9+]/                   # Carpetas para temas futuros
 ```
 
 ### 📂 Organización por Temas
@@ -147,6 +201,10 @@ Cada tema del curso tiene su propia carpeta independiente que contiene:
 - **Tema 2**: Naranjas y rojos (Gestión de Riesgos TI)
 - **Tema 3**: Verdes (Continuidad del Negocio)
 - **Tema 4**: Púrpuras e índigos (Gobierno TI - Framework COBIT)
+- **Tema 5**: Turquesa (Certificación CISA)
+- **Tema 6**: Rojos (Gestión de Riesgos en SI)
+- **Tema 7**: Verdes (Gestión de Calidad en TI)
+- **Tema 8**: Púrpura (Normativas Tecnológicas de Seguridad)
 
 ### 🚀 Cómo Ejecutar un Tema
 

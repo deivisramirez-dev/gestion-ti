@@ -1,0 +1,738 @@
+﻿
+Tema 8
+
+
+
+
+
+
+Gestión TI
+
+Normativas Tecnológicas de Seguridad: ISO 27001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ideas clave
+
+8.1. Introducción y objetivos
+
+La importancia adquirida hoy en día por la información dentro de cualquier tipo de organización ha conducido a las empresas a focalizar su atención hacia la seguridad de estas informaciones dentro de su entorno TI. La posibilidad de que la información, uno de los principales activos empresariales, pueda verse alterada por terceros o accedida por personas no autorizadas, hace que las organizaciones TI busquen implementar un sistema de gestión de seguridad de la información (SGSI) o Information Security Management System (ISMS) que salvaguarde este activo.
+
+Para efectuar esta implementación, las organizaciones TI cuentan con la norma ISO 27001:2013, desarrollada por la International Standard Organization (ISO), que les guía en la realización de los pasos a seguir y en las técnicas o controles a implementar.
+
+El desarrollo de este tema, aborda el concepto y componentes de un sistema de gestión de seguridad de la información, para posteriormente ahondar en los principales apartados de la norma ISO 27001:2013, describiendo, también la ISO 27002 como una Guía de apoyo de la norma. Concluye el tema indicando una serie de factores a considerar en la implantación del SGSI.
+
+Los objetivos que se pretenden conseguir son:
+
+
+ Comprender el concepto y la importancia de un sistema de gestión de seguridad de la información para una organización TI.
+ Describir la norma ISO 27001:2013 en sus principales apartados.
+ Desarrollar la capacidad de implementar un SGSI de acuerdo con la ISO 27001.
+
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+8.2. Sistema de gestión de seguridad de la información
+En la actualidad, existe una honda preocupación dentro de las organizaciones TIC ante las continuas noticias sobre seguridad de la información que transmiten los medios de comunicación. Hackers, accesos no autorizados, robo de contraseñas, secuestro de equipos, o cualquier otra intrusión en los sistemas de información, hacen que las organizaciones dirijan sus miradas hacia la imperiosa necesidad de implementar algunas medidas de seguridad.
+
+La mejor manera de implantar esta seguridad de la información es mediante la implementación de un sistema de gestión de seguridad de la información que, siguiendo las orientaciones de la norma ISO 27001:2013, establezca una serie de controles en diferentes partes de los sistemas de información, para disminuir las posibles intrusiones no autorizadas.
+
+El Instituto Nacional de Ciberseguridad, INCIBE, anteriormente denominado Instituto Nacional de Tecnologías de la Comunicación, INTECO, edita un documento titulado Implantación de un SGSI en la empresa donde define el sistema de gestión de seguridad de la información (SGSI) o Information Security Management System (ISMS) como:
+
+«Una herramienta de gestión que nos va a permitir conocer, gestionar y minimizar los posibles riesgos que atenten contra la seguridad de la información en nuestra empresa» (INTECO, 2011).
+
+Esta definición está orientada hacia la finalidad que otorga el SGSI a las diferentes organizaciones. Existen otras definiciones, más genéricas y simples, enfocadas hacia su contenido, «Conjunto de políticas y procedimientos que gestionan sistemáticamente los activos de información de una organización», «Conjunto de
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+prácticas orientadas a garantizar la seguridad, la integridad y la confidencialidad de los datos de una organización».
+
+La propia norma ISO 27001:2013 define al SGSI como «un sistema compuesto de una serie de procesos para implementar, mantener y mejorar de forma continua la seguridad de la información tomando como base los riesgos que afectan a la seguridad de la información en una empresa u organización» (ISO27001, 2015).
+
+Si bien queda clara la definición y donde focaliza su actuación, es preciso destacar que el objetivo es ofrecer una garantía para la continuidad del negocio, buscando siempre anteponer la minimización del riesgo, para que su impacto sea lo más leve posible y pueda ser asumido por la organización.
+
+El sistema de gestión de seguridad de la información se basa en tres pilares de la información (ISOTools Excellence, 2018):
+
+ Confidencialidad: Los datos son propiedad de la organización y solo pueden utilizarse por personal debidamente autorizado y nunca por terceras personas carentes de autorización.
+ Integridad: Está enfocada a garantizar la consistencia de la información y que está permanece exacta, sin haber sido alterada con fines perniciosos. Este pilar otorga una sensación de seguridad a todos los empleados en el procesamiento y disposición de la información.
+ Disponibilidad: Persigue que solamente las personas que estén autorizadas dispongan de la información en el momento oportuno y bajo el formato que considere preciso.
+
+
+
+
+
+
+
+
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+
+
+Figura 1. Pilares de un SGSI.
+
+
+
+
+8.3. Norma ISO 27001:2013
+
+La norma ISO 27001:2013 es la norma de la International Standard Organization para el desarrollo e implementación de los sistemas de gestión de seguridad de la información (SGSI) en una organización. Esta norma proporciona un marco adaptable a todo tipo de empresas para implementar un SGSI de cara a cumplir con los aspectos legales y a garantizar la confidencialidad, la integridad y la disponibilidad de la información.
+
+La norma internacional, busca dotar, tanto a las organizaciones TI como a sus clientes, de una certeza en cuanto al compromiso de seguridad e implantación de mejores prácticas, que difunda confianza en el tratamiento que sus datos van a tener en esa organización, de ahí la importancia de esta norma. Se trata de, además, de una norma orientada a certificación.
+
+Cuando un sistema de gestión de seguridad de la información está certificado con la norma ISO 27001 implica que sus procesos de mejora ayudan a implantar y mantener los controles que se encargan de gestionar el riesgo.
+
+En su parte básica la ISO 27001 sigue el modelo de Deming, conocido también como rueda PDCA (Plan, Do, Check, Act) o ciclo PHVA (Planificar, Hacer, Verificar, Actuar). Este ciclo permite establecer procesos de mejora continua tanto a nivel de gestión del sistema como a nivel individual (NQA, s.f.)
+
+        Gestión TI Tema 8. Ideas clave
+
+La figura 2 muestra un gráfico del funcionamiento del modelo PDCA:
+
+
+Figura 2. Principios norma ISO 9001:2015.
+
+
+En su parte estructural, la norma cumple con la nueva estructura común de alto nivel Anexo SL de ISO que está estructurada en diez cláusulas que constan en la Tabla 1:
+
+Norma ISO 27001:2013. Anexo SLCláusula 1AlcanceCláusula 2Referencias normativasCláusula 3Términos y definicionesCláusula 4Contexto de la organizaciónCláusula 5LiderazgoCláusula 6PlanificaciónCláusula 7SoporteCláusula 8OperaciónCláusula 9Evaluación del desempeñoCláusula 10MejoraTabla 1. Cláusulas de la norma ISO 27001:2013.
+
+
+Para alcanzar la certificación se debe cumplir con las cláusulas 4 a la 10. Además, la norma cuenta con una guía auxiliar de buenas prácticas, conocida como ISO 27002 y
+
+
+        Gestión TI Tema 8. Ideas clave
+
+se verá en el siguiente apartado, que contiene 114 controles a considerar por parte de la organización en el desarrollo de su SGSI.
+
+Una mayor profundización en el contenido y ejecución de las cláusulas se encuentra en la URL: https://normaiso27001.es/ (ISO27001, 2015). De forma más concisa el documento ISO 27001:2013. Guía de implantación para la seguridad de la información (NQA, S. f.) también facilita su descripción. Desde aquí, vamos a efectuar una síntesis suficiente para comprender cada cláusula.
+
+Cláusula 1: Alcance
+
+La cláusula del alcance hace ver que la norma es aplicable, no solo a grandes empresas, sino también a pequeñas y medianas empresas. En el apartado a fondo se dispone de un documento SME Guide for the Implementation of ISO/IEC 27001 on information security management de la European Digital SME Alliance que lo reafirma.
+
+Igualmente, comenta como está organizada la norma ISO 27001:2013 y cuáles son los requisitos y cláusulas a cumplir para obtener la certificación.
+
+Cláusula 2: Referencias normativas
+
+Esta cláusula hace mención a otras normas que se empleen en la norma ISO 27001. En este caso solamente la ISO 27000 contiene información a utilizar y queda reducida a algunos términos y a la aplicación del modelo PDCA a los sistemas de gestión.
+
+Cláusula 3: Términos y definiciones
+
+
+Sirve de guía de referencia para conocer el significado de los términos o definiciones contenidos en la norma. Generalmente, remite a la norma ISO 27000 para conocer la exactitud del término. (Por ejemplo, se define Tratamiento de riesgos como:
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+«Procesos o acciones que reducen los riesgos identificados a un nivel tolerable o aceptable») (NQA, S. f.)
+
+Cláusula 4: Contexto de la organización
+
+Una de las acciones al comienzo de la implantación atañe al necesario conocimiento del contexto de la organización, a modo de punto de referencia. Conociendo el contexto se pueden alinear los objetivos de la seguridad a los objetivos del negocio en buena consonancia.
+
+Para conocer el contexto de la organización se establecen en dos niveles, en función del control que tenga la organización. Si carece de control diremos que son aspectos externos, pero si tiene el control hablaremos de aspectos internos.
+
+Un buen análisis del contexto de una organización permite identificar riesgos potenciales para los activos de la organización, tanto a nivel interno como externo.
+
+Cláusula 5: Liderazgo
+
+
+La cláusula de liderazgo obliga a la dirección de la organización a participar de forma activa y constante en el proceso de implantación, sobremanera en la disposición de los recursos necesarios para alcanzar los objetivos de seguridad de la información.
+
+Esta participación activa dará lugar al establecimiento de una política de seguridad, que ayudará a la implantación de una cultura de seguridad en la organización, y a la asignación de responsabilidades a las personas que formen parte del SGSI. (Director de seguridad, administrador de seguridad, arquitecto de seguridad, analista de seguridad…).
+
+
+
+
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+Cláusula 6: Planificación
+
+La planificación (PLAN) actúa una vez que se conozcan las necesidades de seguridad que tiene que abordar la organización. Identificados los potenciales riesgos que puedan actuar deben analizarse y así identificar las amenazas o vulnerabilidades de los sistemas de información.
+
+Con el conocimiento de las vulnerabilidades, se evalúa el impacto que el riesgo pueda tener en la organización y se le asigna una prioridad y un responsable del riesgo.
+
+Finalmente, y en función de las prioridades asignadas, se crea un plan de tratamiento de riesgos (PTR) que incluirá la selección de controles a implantar y la declaración de aplicabilidad (SOA: Statement of Applicability) que indicará si los controles han sido aplicados o los motivos por los que no se han llevado a cabo.
+
+Cláusula 7: Soporte
+
+
+Cláusula orientada a conocer cuáles son los recursos (personas, infraestructura, herramientas…) que se necesitan para llevar a cabo el plan de tratamiento de riesgos elaborado en la cláusula anterior de planificación.
+
+Este soporte analiza la competencia y concienciación del personal que está implicado en el SGSI, la capacidad de los recursos disponibles para realizar las tareas planificadas y, asimismo, observa si la comunicación fluye de forma conveniente para lograr los objetivos de seguridad, (¿A quién se informa?, ¿cuándo se informa?, ¿están definidos los procesos de comunicación?) o si la información está debidamente documentada.
+
+Cláusula 8: Operación
+
+
+La cláusula de operación representa el DO del modelo de Deming, limitándose a realizar las acciones de seguridad incluidas en el plan de tratamiento de riesgos, y
+
+        Gestión TI Tema 8. Ideas clave
+
+ejecutarlas con los recursos asignados, observando si las acciones se han integrado correctamente en los procesos afectados bajo la dirección de la persona responsable.
+
+En esta cláusula es importante la aplicación del control de cambios que documente correctamente las nuevas acciones integradas y deje constancia de ello. Igualmente si hubiese algún motivo por el que no se pueda implantar la acción, deberá constar en la declaración de aplicabilidad.
+
+Cláusula 9: Evaluación del desempeño
+
+
+La evaluación del desempeño que representa el CHECK del ciclo de Deming, se encarga de evaluar si las acciones que se han integrado en el sistema de gestión de seguridad de la información han sido efectivas.
+
+Esta efectividad puede comprobarse por medio de revisiones que efectúe la propia dirección, por un mayor seguimiento, mediante métricas, de los controles modificados o bien mediante el desarrollo de auditorías internas de seguridad que cuenten con tiempo suficiente para desempeñar la labor y con una buena colaboración por parte del personal de la empresa.
+
+Cláusula 10: Mejora
+
+Última cláusula de la norma que, además de representar el ACT del modelo, establece un proceso de mejora continua que está alimentado por los resultados que le llegan de la etapa de evaluación o por los resultados que proporcionan las auditorías.
+
+Focaliza su acción en establecer acciones correctivas que identifiquen la causa o la raíz del riesgo o problema detectado y propone acciones que la eliminen o la mitiguen.
+
+Este proceso de mejora continua establece nuevas acciones priorizadas que se incorporan al PTR y que producirán una nueva iteración del ciclo, haciendo que todos
+
+        Gestión TI Tema 8. Ideas clave
+
+los procesos del SGSI estén en todo momento mejorando para lograr que los riesgos posibles de la organización la afecten en la menor medida posible.
+
+Vídeo. Norma ISO27001.
+
+Accede al vídeo a través del aula virtual
+
+
+8.4. Guía de Controles ISO 27002
+
+La norma ISO 27002:2013 publicada por la International Standard Organization es un estándar en el campo de la seguridad de la información que se utiliza fundamentalmente asociada a la ISO 27001. Esta asociación permite a las personas que están implantando un sistema de gestión de seguridad de la información bajo las directrices de la norma ISO 27001, disponer de una guía auxiliar de buenas prácticas a aplicar en función del objetivo de control que se pretenda alcanzar.
+
+Se trata de una norma organizada en 14 dominios, o aspectos relevantes de un SGSI, que a su vez se descomponen en un total de 35 objetivos de control y que, éstos, engloban un total de 114 controles a implantar.
+
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+Los 14 dominios quedan reflejados en la Tabla 2:
+
+
+Norma ISO 27002:2013. DominiosA5Políticas de seguridad de la informaciónA6Organización de la seguridad de la informaciónA7Seguridad ligada a los recursos humanosA8Gestión de activosA9Control de accesoA10CriptografíaA11Seguridad física y ambientalA12Seguridad de las operacionesA13Seguridad en las telecomunicacionesA14Adquisición, desarrollo y mantenimiento de los sistemas de informaciónA15Relación con proveedoresA16Gestión de incidentes de la seguridad de la informaciónA17Aspectos de seguridad de la información en la gestión de continuidad del negocioA18CumplimientoTabla 2. Dominios de la norma ISO 27002:2013.
+
+
+Si bien estos dominios se han revisado en el año 2013, en la versión anterior del año 2005, el número de dominios establecidos era de 11, menor que el actual. El incremento en los dominios se produce ante la aparición de nuevos aspectos tecnológicos a considerar en una organización TI, como son la criptografía o la relación con los proveedores. Igualmente, se crea un nuevo dominio al dividir la gestión de las comunicaciones y operaciones en dos dominios diferentes. La comparativa de ambas versiones queda reflejada en la Tabla 3:
+
+Norma ISO 27002:2005
+DominiosNorma ISO 27002:2013
+DominiosA5Políticas de seguridadA5Políticas de seguridad de la informaciónA6Aspectos organizativos de la seguridad de la informaciónA6Organización de la seguridad de la información
+
+        Gestión TI Tema 8. Ideas clave
+
+
+A8Seguridad ligada a los recursos humanosA7Seguridad ligada a los recursos humanosA7Gestión de activosA8Gestión de activosA11Control de accesoA9Control de accesoA10CriptografíaA9Seguridad física y ambientalA11Seguridad física y ambiental
+A10
+Gestión de las comunicaciones y operacionesA12Seguridad de las operacionesA13Seguridad	en	las telecomunicacionesA12Adquisición,	desarrollo		y mantenimiento		de	los
+sistemas de informaciónA14Adquisición,	desarrollo	y mantenimiento de los sistemas de
+informaciónA15Relación con proveedoresA13Gestión de incidentes de la seguridad de la informaciónA16Gestión de incidentes de la seguridad de la información
+A14Gestión de la continuidad del negocio
+A17Aspectos de seguridad de la información en la gestión de
+continuidad del negocioA15CumplimientoA18CumplimientoTabla 3. Comparativa de dominios ISO 27002:2013 frente a ISO 27002.2005.
+
+
+Como se ha comentado, estos 14 dominios cubren aspectos de gran importancia de cara a mantener la seguridad de la información en una organización TI. Asociados a estos dominios se dispone a su vez de 35 objetivos de control, cuya asociación queda desglosada a continuación:
+
+ A5: Políticas de seguridad de la información: Busca orientar a la dirección en materia de seguridad de la información en conformidad con las características del negocio y la legislación vigente. Tiene un único objetivo de control:
+• Directrices de la dirección en seguridad de la información.
+
+
+ A6: Organización de la seguridad de la información: Está enfocado al establecimiento de un marco de gestión que permita controlar las operaciones de seguridad de la información, tanto dentro como fuera de la organización. Tiene 2 objetivos de control:
+• Organización interna.
+• Dispositivos móviles y teletrabajo.
+
+
+        Gestión TI Tema 8. Ideas clave
+
+ A7: Seguridad ligada a los recursos humanos: Si bien las personas son el activo más importante dentro de una empresa, también hay que resaltar que los errores que cometen constituyen uno de los principales riesgos para la seguridad de la información y se debe intentar mitigarlos en 3 instantes, que corresponden con sus objetivos de control:
+• Antes de la contratación.
+• Durante la contratación.
+• Cese o cambio de puesto de trabajo.
+
+
+ A8: Gestión de activos: Tiene por objetivo preservar los activos de información que soportan el negocio, asignando responsabilidades, categorizando la importancia de la información o controlando los soportes empleados. Presenta 3 objetivos de control:
+• Responsabilidad sobre los activos.
+• Clasificación de la información.
+• Manejo de los soportes de almacenamiento.
+
+
+ A9: Control de acceso: Busca controlar que los accesos a la información se hagan en conformidad con las normas definidas por la organización TI. Tiene 4 objetivos de control:
+• Requisitos de negocio para el control de accesos.
+• Gestión de acceso de usuario.
+• Responsabilidades del usuario.
+• Control de acceso a sistemas y aplicaciones.
+
+
+ A10: Criptografía: Su labor es controlar que la criptografía se emplea de forma eficaz de cara a proteger la confidencialidad y la integridad de la información. Tiene un único objetivo de control:
+• Controles criptográficos.
+
+
+
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+ A11: Seguridad física y ambiental. Este dominio establece controles físicos para proteger los activos de información y evitar intrusiones por parte de personas no autorizadas. Presenta 2 objetivos de control:
+• Áreas seguras.
+• Seguridad de los equipos.
+
+ A12: Seguridad de las operaciones. El objetivo de este dominio está enfocado hacia aspectos técnicos que garanticen la seguridad de la información. Malware, backups, monitorización o la realización de auditorías son algunas de las prácticas que busca controlar el dominio. Consta de 7 objetivos de control:
+• Responsabilidades y procedimientos de operación.
+• Protección contra código malicioso.
+• Copias de seguridad.
+• Registro de actividad y supervisión.
+• Control de software en explotación.
+• Gestión de la vulnerabilidad técnica.
+• Consideraciones de las auditorías de los sistemas de información.
+
+
+ A13: Seguridad en las telecomunicaciones: Su objetivo es controlar las comunicaciones que establece la organización por las redes, tanto las comunicaciones externas como las que se realizan a través de su propia red. Consta de 2 objetivos de control:
+• Gestión de la seguridad en las redes.
+• Intercambio de información con partes externas.
+
+
+ A14: Adquisición, desarrollo y mantenimiento de los sistemas de información: Está enfocado a garantizar la seguridad de la información durante todo el ciclo de vida de los sistemas de información propios como los que estén subcontratados. Controla sus requisitos, los procesos de desarrollo o los datos que se emplean en las pruebas. Tiene 3 objetivos de control:
+• Requisitos de seguridad de los sistemas de información.
+• Seguridad en los procesos de desarrollo y soporte.
+
+        Gestión TI Tema 8. Ideas clave
+
+• Datos de prueba.
+
+ A15: Relación con proveedores: Busca controlar los accesos de personas externas a la organización TI a la información o recursos que empleen los sistemas de información y comprobar que estos accesos se hacen bajo las premisas establecidas. Consta de 2 objetivos de control:
+• Seguridad de la información en las relaciones con los proveedores.
+• Gestión de la prestación del servicio por suministradores.
+
+
+ A16: Gestión de incidentes de la seguridad de la información: La presencia de incidentes en un sistema de seguridad de la información está plenamente garantizada. El control de cómo se gestiona esa incidencia es el único objeto de control de este dominio:
+• Gestión de incidentes de seguridad de la información y mejoras.
+
+
+ A17: Aspectos de seguridad de la información en la gestión de continuidad del negocio: Este dominio enfoca su acción a garantizar la disponibilidad física de las instalaciones ante posibles desastres naturales para restablecer las operaciones en el menor tiempo posible. Presenta 2 objetivos de control:
+• Continuidad de la seguridad de la información.
+• Redundancias.
+
+ A18: Cumplimiento: Su objetivo es controlar que se está cumpliendo con la legislación vigente y revisar que los controles para la seguridad de la información han sido implantados siguiendo las directrices marcadas por la organización TI. proporciona 2 objetivos de control
+• Cumplimiento de los requisitos legales y contractuales.
+• Revisiones de la seguridad de la información.
+
+
+
+
+
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+
+
+Vídeo. Guía Controles ISO27002.
+
+Accede al vídeo a través del aula virtual
+
+
+8.5. Implantación de un SGSI según la norma ISO 27001
+La plataforma tecnológica ISOTools Excellence muestra en su documento titulado La norma ISO 27001. Aspectos clave de su diseño e implementación (ISOTools Excellence, S. f.) las principales fases para elaborar un sistema de gestión de seguridad de la información de acuerdo con la norma ISO 27001, y tomando como modelo de referencia el modelo PDCA. En dicho documento establece 9 fases:
+
+1. Análisis y evaluación de riesgos.
+2. Implementación de controles.
+3. Definición de un plan de tratamiento de riesgos (PTR).
+4. Alcance de la gestión.
+5. Contexto de organización.
+6. Partes interesadas.
+7. Fijación y medición de objetivos.
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+8. Proceso documental.
+9. Auditorías internas y externas.
+
+
+Análisis y evaluación de riesgos
+
+La primera fase debe identificar y analizar los principales riesgos que afectan a la organización, asignando la responsabilidad del mismo a una persona para que se asegure de su tratamiento. Malware, desastres naturales o ataques informáticos son un ejemplo de estos riesgos, amén de los posibles riesgos inherentes a cuestiones técnicas o del propio personal. Estos riesgos serán evaluados y clasificados en función del impacto que puedan generar en la organización. Hay que considerar la existencia de riesgos aceptables o residuales que permanecerán en la organización, bien porque su coste de erradicación es excesivo, bien porque a pesar de las medidas no es posible evitar el riesgo.
+
+Implementación de controles
+
+
+Para cubrir la totalidad de los riesgos identificados se dispone de los 114 controles que proporciona la ISO 27100:2013. Se trata por tanto de identificar los controles que pueden asociarse al riesgo identificado e implementarlo. También es posible incorporar otros controles que se ajusten en mayor medida con la operatividad de la organización TI.
+
+Definición de un plan de tratamiento de riesgos (PTR)
+
+Identificados los riesgos, es el momento de definir un plan de tratamiento de riesgos (PTR). Este plan de tratamiento considerará el potencial de los riesgos y procederá bien a mitigarlo con medidas preventivas, bien a eliminarlo, bien a trasladarlo empleando algún contrato de seguros. Estos riesgos vendrá priorizados por el nivel en que pueden afectar al funcionamiento de la organización TI.
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+Alcance de la gestión
+
+Es preciso conocer las áreas de la organización que se van a ver afectadas por el SGSI. Normalmente se priorizan las áreas que se encargan de funciones que atañen a la misión institucional y posteriormente se van incorporando áreas relevantes al sistema.
+
+Contexto de organización
+
+
+Es una parte importante para el sistema de gestión de seguridad de la información, porque permite detectar los problemas de organización, tanto a nivel interno, como a nivel externo. Para conocer este contexto se suele emplear un diagrama DAFO que nos facilite las debilidades, amenazas, fortalezas y oportunidades para la organización.
+
+Partes interesadas
+
+
+En cuestión de riesgos, además del contexto de la organización, es preciso conocer si las partes externas precisan de algún tratamiento. Proveedores TIC, clientes, autoridades jurídicas, colegios profesionales o la propia sociedad deben ser consideradas para evitar que generen algún riesgo para la organización.
+
+Fijación y medición de objetivos
+
+Para gestionar los riesgos la organización tiene que fijar unos objetivos que se puedan medir, de cara a su comparación con indicadores referenciales, y que sean conocidos por todo el personal. Un personal que debe formarse en la cultura de la seguridad de la información para, así, asumir las responsabilidades otorgadas.
+
+
+
+
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+Proceso documental
+
+De acuerdo con la norma, no se obtendrá la certificación si no se cuenta con un proceso documentado que gestione de forma sistemática la información existente y que permita consultar en cualquier instante dicha documentación. Esta documentación puede contener hojas de cálculo, archivos de vídeo, documentos de texto, o cualquier otro formato que registre la gestión de la información.
+
+Auditorías internas y externas
+
+
+Será necesario realizar cada cierto tiempo auditorías internas que evalúen si el sistema está funcionando correctamente y cumplen con eficacia los objetivos de la organización. Si hubiese un incumplimiento de estos objetivos, se propondrán nuevos acciones de mejora (nuevo control, modificar el control existente,…). El resultado de la auditoría deberá constar en un documento que se utilizará como referencia en próximas auditorías.
+
+
+
+8.6. Referencias bibliográficas
+
+INTECO. (2011). Implantación de un SGSI en la empresa. INTECO. https://www.incibe.es/extfrontinteco/img/File/intecocert/sgsi/img/Guia_apoyo_SG SI.pdf
+
+ISO27001. (2015). Norma ISO 27001. https://normaiso27001.es/
+
+ISOTools Excellence, (S. f.). La norma ISO 27001: aspectos clave de su diseño e implementación. ISOTools. https://www.isotools.org/pdfs-pro/iso-27001-sistema- gestion-seguridad-informacion.pdf
+
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+ISOTools Excellence. (1 de febrero de 2018). Los tres pilares de la seguridad de la información: confidencialidad, integridad y disponibilidad. SGSI. https://www.pmg- ssi.com/2018/02/confidencialidad-integridad-y-disponibilidad/
+
+NQA. (S. f.) ISO 27001:2013: Guía de implantación para la seguridad de la información. NQA.
+https://www.nqa.com/medialibraries/NQA/NQA-Media- Library/PDFs/Spanish%20PDFs/NQA-ISO-27001-Guia-de-implantacion.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Gestión TI Tema 8. Ideas clave
+
+
+
+A fondo
+
+SME Guide for the Implementation of ISO/IEC 27001 on information security management
+
+
+La asociación europea Small Business Standards (SBS) que representa a las empresas de tamaño medio y pequeño interesadas en los proceso de estandarización, facilita un documento a modo de guía de implantación de la ISO/IEC 27001 en las pequeñas y medianas empresas y como gestionar la seguridad de la información.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     Gestión TI Tema 8. A fondo
+
+Contributing	factors	for	successful	information	security	management implementation: A conceptual model
+
+
+La revista Formación Universitaria publica un artículo académico que muestra de forma práctica el proceso de implantación de la ISO 9001:2015, y su aplicación a una organización universitaria de Colombia.
+
+
+
+
+Gestión de seguridad de la información con la norma ISO 27001:2013
+
+
+
+
+
+
+asociados.
+
+Artículo que presenta un marco de trabajo para un sistema de gestión de seguridad de la información en conformidad con la norma ISO 27001:2013. El artículo, además de presentar la norma, realiza una aplicación práctica comentando  aspectos  técnicos  sobre  los  14  dominios
+
+
+
+
+     Gestión TI Tema 8. A fondo
+
+Implantación de un SGSI
+
+
+
+
+El Instituto Nacional de Tecnologías de la Comunicación (INTECO), renombrado hoy en día como INCIBE, proporciona este vídeo para mostrar a la información como principal activo de una empresa que debe estar protegida a la vez que es esencial mantener su disponibilidad, integridad y confidencialidad. La implantación de un SGSI garantiza todos estos requisitos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     Gestión TI Tema 8. A fondo
+
+Foundations for planning your ISMS
+
+
+
+
+En este vídeo John Laffey, Technical Manager de la Perry Johnson Registrars Inc., expone los conceptos fundamentales de la ISO 27001 y los pasos a dar para planificar el desarrollo de un sistema de gestión de seguridad de la información.
+
+
+CCN-CERT: Centro Criptológico Nacional
+
+
+
+El CCN-CERT es un centro integrado en Centro Criptológico Nacional que se encarga de dar respuesta a nivel nacional a incidentes de seguridad de la información. Su objetivo es contribuir a mejorar la ciberseguridad española y a responder eficientemente a los ciberataques que se produzcan para preservar la información sensible.
+
+
+
+
+     Gestión TI Tema 8. A fondo
+
+
+
+Test
+
+1. ¿Cuál de los tres pilares de la información se encarga de que los datos solo puedan utilizarse por personal debidamente autorizado?
+A. Conformidad.
+B. Integridad.
+C. Confidencialidad.
+D. Disponibilidad.
+
+
+2. Indique la respuesta incorrecta:
+A. El ciclo que permite a la ISO 27001 establecer procesos de mejora continua se conoce como modelo de Deming.
+B. El ciclo que permite a la ISO 27001 establecer procesos de mejora continua se conoce como ciclo PHVA.
+C. El ciclo que permite a la ISO 27001 establecer procesos de mejora continua se conoce como rueda PVHA.
+D. El ciclo que permite a la ISO 27001 establecer procesos de mejora continua se conoce como rueda PDCA.
+
+3. ¿En qué fase de la implantación de un sistema de gestión de seguridad de la información se suele emplear un diagrama DAFO?
+A. Proceso documental.
+B. Contexto de organización.
+C. Alcance de la gestión.
+D. Implementación de controles.
+
+
+4. ¿Cuál de los siguientes dominios es de nueva creación?
+A. Relación con los proveedores.
+B. Gestión de activos.
+C. Cumplimiento.
+D. Seguridad física y ambiental.
+
+  Gestión TI Tema 8. Test
+
+5. Indique la sentencia correcta:
+A. La integridad garantiza que terceros no acceden a la información.
+B. La confidencialidad permite disponer de la información en el formato deseado.
+C. La disponibilidad asegura la exactitud de la información.
+D. La integridad garantiza la consistencia de la información.
+
+6. La guía ISO 27002 se compone de:
+A. 11 dominios, 38 objetivos de control y 133 controles.
+B. 14 objetivos de control, 35 dominios y 114 controles.
+C. 11 objetivos de control, 38 dominios y 133 controles.
+D. 14 dominios, 35 objetivos de control y 114 controles.
+
+
+7. El plan de tratamiento de riesgos que contiene la declaración de aplicabilidad se crea en:
+A. El contexto de la organización.
+B. Liderazgo.
+C. Planificación.
+D. Mejora.
+
+
+8. Indique la sentencia incorrecta:
+A. Una vez identificados los riesgos el plan de tratamiento procederá a mitigarlo con medidas preventivas.
+B. El plan de tratamiento de riesgos procede a eliminar los riesgos identificados.
+C. Los riesgos identificados los riesgos son trasladados en el plan de tratamiento empleando algún contrato de seguros.
+D. El plan de tratamiento de riesgos procederá a identificar los principales riesgos que afectan a la organización.
+
+
+
+
+
+
+
+
+  Gestión TI Tema 8. Test
+
+9. ¿Cuál de las cláusulas de la estructura Anexo SL de la ISO 27001 se encarga de la fase DO?
+A. Soporte.
+B. Evaluación del desempeño.
+C. Operación.
+D. Mejora.
+
+
+10. Los tres pilares de la información son:
+A. Conformidad, Integridad y Disponibilidad.
+B. Confidencialidad, Integridad y Disponibilidad.
+C. Conformidad, Integridad y Confidencialidad.
+D. Confidencialidad, Conformidad y Disponibilidad.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Gestión TI Tema 8. Test
