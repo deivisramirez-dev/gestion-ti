@@ -99,6 +99,19 @@ Facilitar la enseñanza de conceptos de Gestión de Tecnologías de Información
 - **Implantación SGSI**: Las 9 fases de implementación
 - **Modelo PDCA**: Mejora continua en seguridad
 
+### ⚙️ **Tema 9: Modelo CMMI** (`Tema9/index.html`)
+- **Niveles de Capacidad**: 0-3 (Incompleto a Definido)
+- **Niveles de Madurez**: 1-5 (Inicial a Optimización)
+- **CMMI para Desarrollo**: 22 áreas de proceso para desarrollo
+- **CMMI para Servicios**: 24 áreas de proceso para servicios
+- **Certificaciones CMMI**: Proceso de evaluación y certificación
+- **SCAMPI**: Método de evaluación estándar
+- **Conceptos Técnicos Avanzados**: Áreas de proceso específicas, métricas y medidas
+- **Metodologías Complementarias**: Integración con ITIL, COBIT, ISO 27001, Agile
+- **Casos de Estudio Prácticos**: Implementaciones reales y lecciones aprendidas
+- **Herramientas y Plantillas**: Recursos prácticos para implementación
+- **Métricas y KPIs**: Indicadores de progreso y dashboard de métricas
+
 
 ## 🖥️ Instalación y Uso
 
@@ -122,12 +135,13 @@ Facilitar la enseñanza de conceptos de Gestión de Tecnologías de Información
 - **Tema 6**: Abrir `Tema6/index.html` - Gestión de Riesgos en SI
 - **Tema 7**: Abrir `Tema7/index.html` - Gestión de Calidad en TI
 - **Tema 8**: Abrir `Tema8/index.html` - Normativas Tecnológicas de Seguridad
+- **Tema 9**: Abrir `Tema9/index.html` - Modelo CMMI
 - **Temas futuros**: Seguir el mismo patrón de carpetas
 
 ### Controles
 - **Página Principal**: Navegación central con tarjetas de temas
 - **Botones de navegación**: Cambiar entre secciones dentro de cada tema
-- **Teclas de acceso rápido**: Ctrl/Cmd + 1-8 para navegar a temas, Ctrl/Cmd + 0 para volver
+- **Teclas de acceso rápido**: Ctrl/Cmd + 1-9 para navegar a temas, Ctrl/Cmd + 0 para volver
 - **Hover**: Efectos visuales en tarjetas y elementos
 - **Responsive**: Adaptación automática a dispositivos móviles
 
@@ -185,7 +199,13 @@ gestion-ti/
 │   ├── script.js               # Lógica JavaScript del tema
 │   ├── README.md               # Documentación específica del tema
 │   └── tema8.txt               # Contenido original del tema
-└── [Tema9+]/                   # Carpetas para temas futuros
+├── Tema9/                       # Tema 9: Modelo CMMI
+│   ├── index.html              # Interfaz principal del tema
+│   ├── styles.css              # Estilos específicos (paleta azul/índigo)
+│   ├── script.js               # Lógica JavaScript del tema
+│   ├── README.md               # Documentación específica del tema
+│   └── tema9.txt               # Contenido original del tema
+└── [Tema10+]/                  # Carpetas para temas futuros
 ```
 
 ### 📂 Organización por Temas
@@ -205,6 +225,7 @@ Cada tema del curso tiene su propia carpeta independiente que contiene:
 - **Tema 6**: Rojos (Gestión de Riesgos en SI)
 - **Tema 7**: Verdes (Gestión de Calidad en TI)
 - **Tema 8**: Púrpura (Normativas Tecnológicas de Seguridad)
+- **Tema 9**: Azules e índigos (Modelo CMMI)
 
 ### 🚀 Cómo Ejecutar un Tema
 

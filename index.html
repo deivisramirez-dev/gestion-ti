@@ -102,6 +102,10 @@
             background: linear-gradient(90deg, #8e44ad, #9b59b6);
         }
 
+        .theme-card.tema9::before {
+            background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+        }
+
         .theme-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 35px rgba(0,0,0,0.15);
@@ -147,6 +151,10 @@
 
         .theme-card.tema8 .theme-icon {
             color: #8e44ad;
+        }
+
+        .theme-card.tema9 .theme-icon {
+            color: #3b82f6;
         }
 
         .magerit-card {
@@ -599,25 +607,26 @@
                 </a>
             </div>
 
-            <!-- Temas Futuros -->
-            <div class="theme-card fade-in" style="opacity: 0.7;">
-                <span class="status-badge status-pending">Próximamente</span>
-                <i class="fas fa-clock theme-icon" style="color: #6c757d;"></i>
-                <h3 class="theme-title">Tema 9</h3>
-                <p class="theme-subtitle">Contenido en Desarrollo</p>
+            <!-- Tema 9: Modelo CMMI -->
+            <div class="theme-card tema9 fade-in" onclick="navigateToTheme('Tema9')">
+                <span class="status-badge status-complete">Completo</span>
+                <i class="fas fa-cogs theme-icon"></i>
+                <h3 class="theme-title">Tema 9: Modelo CMMI</h3>
+                <p class="theme-subtitle">Capability Maturity Model Integration</p>
                 <p class="theme-description">
-                    El siguiente tema del curso está en proceso de desarrollo 
-                    y será implementado próximamente con la misma calidad 
-                    y funcionalidad interactiva.
+                    Explora el modelo CMMI para evaluación de madurez organizacional, 
+                    niveles de capacidad, modelos CMMI-DEV y CMMI-SVC, y procesos de certificación.
                 </p>
                 <ul class="theme-features">
-                    <li>Gestión de Proyectos TI</li>
-                    <li>Arquitectura Empresarial</li>
-                    <li>Y más...</li>
+                    <li>Niveles de Capacidad y Madurez</li>
+                    <li>CMMI para Desarrollo (22 áreas)</li>
+                    <li>CMMI para Servicios (24 áreas)</li>
+                    <li>Certificaciones CMMI</li>
+                    <li>Proceso de Evaluación SCAMPI</li>
                 </ul>
-                <button class="btn-explore" disabled style="opacity: 0.5;">
-                    <i class="fas fa-clock me-2"></i>En Desarrollo
-                </button>
+                <a href="Tema9/index.html" class="btn-explore">
+                    <i class="fas fa-arrow-right me-2"></i>Explorar Tema
+                </a>
             </div>
         </div>
 
@@ -843,6 +852,10 @@
                 <span class="shortcut-key">Ctrl + 8</span>
             </div>
             <div class="shortcut-item">
+                <span>Navegar a Tema 9</span>
+                <span class="shortcut-key">Ctrl + 9</span>
+            </div>
+            <div class="shortcut-item">
                 <span>Volver a la página principal</span>
                 <span class="shortcut-key">Ctrl + 0</span>
             </div>
@@ -906,6 +919,10 @@
                     case '8':
                         event.preventDefault();
                         navigateToTheme('Tema8');
+                        break;
+                    case '9':
+                        event.preventDefault();
+                        navigateToTheme('Tema9');
                         break;
                     case '0':
                         event.preventDefault();

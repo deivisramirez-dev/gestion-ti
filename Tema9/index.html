@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo CMMI - Capability Maturity Model Integration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero-header">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="main-title">
+                    <i class="fas fa-cogs me-3"></i>
+                    Modelo CMMI
+                </h1>
+                <p class="subtitle">Capability Maturity Model Integration - Tema 9</p>
+                
+                <!-- Navigation Buttons -->
+                <div class="nav-buttons">
+                    <button class="nav-btn" data-section="introduccion">
+                        <i class="fas fa-info-circle me-2"></i>Introducción y Objetivos
+                    </button>
+                    <button class="nav-btn" data-section="definicion">
+                        <i class="fas fa-question-circle me-2"></i>¿Qué es CMMI?
+                    </button>
+                    <button class="nav-btn" data-section="niveles">
+                        <i class="fas fa-chart-line me-2"></i>Niveles CMMI
+                    </button>
+                    <button class="nav-btn" data-section="desarrollo">
+                        <i class="fas fa-code me-2"></i>CMMI para Desarrollo
+                    </button>
+                    <button class="nav-btn" data-section="servicios">
+                        <i class="fas fa-concierge-bell me-2"></i>CMMI para Servicios
+                    </button>
+                    <button class="nav-btn" data-section="certificacion">
+                        <i class="fas fa-certificate me-2"></i>Certificación CMMI
+                    </button>
+                    <button class="nav-btn" data-section="conceptos">
+                        <i class="fas fa-cogs me-2"></i>Conceptos Técnicos
+                    </button>
+                    <button class="nav-btn" data-section="metodologias">
+                        <i class="fas fa-link me-2"></i>Metodologías
+                    </button>
+                    <button class="nav-btn" data-section="casos">
+                        <i class="fas fa-building me-2"></i>Casos de Estudio
+                    </button>
+                    <button class="nav-btn" data-section="herramientas">
+                        <i class="fas fa-tools me-2"></i>Herramientas
+                    </button>
+                    <button class="nav-btn" data-section="metricas">
+                        <i class="fas fa-chart-bar me-2"></i>Métricas
+                    </button>
+                    <button class="nav-btn active" data-section="overview">
+                        <i class="fas fa-sitemap me-2"></i>Vista General CMMI
+                    </button>
+                </div>
+                
+                <!-- Botón de regreso al índice principal -->
+                <div class="mt-3">
+                    <a href="../index.html" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-home me-2"></i>Volver al Índice Principal
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Main Card -->
+            <div class="main-card">
+                <div class="card-header-section">
+                    <h2 class="section-title" id="sectionTitle">
+                        <i class="fas fa-sitemap me-3"></i>
+                        Modelo CMMI
+                    </h2>
+                    <p class="section-subtitle" id="sectionSubtitle">Tema 9: Capability Maturity Model Integration</p>
+                    <hr class="section-divider">
+                </div>
+
+                <!-- Dynamic Content Container -->
+                <div id="dynamicContent">
+                    <!-- Content will be loaded dynamically based on selected section -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <small>Herramienta Didáctica - Modelo CMMI</small>
+                </div>
+                <div class="col-md-4 text-center">
+                    <small><i class="fas fa-keyboard me-1"></i>Ctrl+0 o Ctrl+H: Volver al índice</small>
+                </div>
+                <div class="col-md-4 text-end">
+                    <small>Tema 9: Modelo CMMI</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
